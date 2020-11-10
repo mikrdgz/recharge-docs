@@ -2,8 +2,10 @@
   "items": [
     {
       "type": "item",
-      "title": "index",
+      "title": "Getting Started",
       "uri": "docs/index.md"
     }
+    
   ]
 }
+
