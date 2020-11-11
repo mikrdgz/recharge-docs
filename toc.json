@@ -50,6 +50,16 @@
           "uri": "#"
         }
       ]
-    }
+    },
+    {
+      "type": "item",
+      "title": "Best Practices",
+      "uri": "#"
+    },
+    {
+      "type": "item",
+      "title": "FAQ",
+      "uri": "#"
+    }  
   ]
 }
