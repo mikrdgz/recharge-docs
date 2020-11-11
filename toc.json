@@ -31,7 +31,17 @@
       "items": [
         {
           "type": "item",
-          "title": "Obtaining Credentials",
+          "title": "Sorting results",
+          "uri": "#"
+        },
+        {
+          "type": "item",
+          "title": "Cursor Pagination",
+          "uri": "#"
+        },
+        {
+          "type": "item",
+          "title": "Legacy Pagination",
           "uri": "#"
         }
       ]
