@@ -4,7 +4,7 @@
       "type": "divider",
       "title": "Getting Started"
     },
-{
+    {
       "type": "item",
       "title": "Introduction",
       "uri": "#"
@@ -19,7 +19,22 @@
           "uri": "#"
         }
       ]
+    },
+    {
+      "type": "item",
+      "title": "Headless",
+      "uri": "#"
+    },
+    {
+      "type": "group",
+      "title": "Retrieving Data",
+      "items": [
+        {
+          "type": "item",
+          "title": "Obtaining Credentials",
+          "uri": "#"
+        }
+      ]
     }
   ]
 }
-
