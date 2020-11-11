@@ -43,6 +43,11 @@
           "type": "item",
           "title": "Legacy Pagination",
           "uri": "#"
+        },
+        {
+          "type": "item",
+          "title": "Client-Side API Filtering",
+          "uri": "#"
         }
       ]
     }
