@@ -1,11 +1,25 @@
 {
   "items": [
     {
+      "type": "divider",
+      "title": "Getting Started"
+    },
+{
       "type": "item",
-      "title": "Getting Started",
-      "uri": "docs/index.md"
+      "title": "Introduction",
+      "uri": "#"
+    },
+    {
+      "type": "group",
+      "title": "Authentication",
+      "items": [
+        {
+          "type": "item",
+          "title": "Obtaining Credentials",
+          "uri": "#"
+        }
+      ]
     }
-    
   ]
 }
 
