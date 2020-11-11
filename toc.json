@@ -60,6 +60,32 @@
       "type": "item",
       "title": "FAQ",
       "uri": "#"
-    }  
+    },
+    {
+      "type": "group",
+      "title": "Webhooks",
+      "items": [
+        {
+          "type": "item",
+          "title": "Overview",
+          "uri": "#"
+        },
+        {
+          "type": "item",
+          "title": "Webhooks Reference",
+          "uri": "#"
+        },
+        {
+          "type": "item",
+          "title": "Response Examples",
+          "uri": "#"
+        },
+        {
+          "type": "item",
+          "title": "Troubleshooting",
+          "uri": "#"
+        }
+      ]
+    }
   ]
 }
