@@ -63,30 +63,6 @@
         },
         {
             "type": "divider",
-            "title": "Webhooks"
-        },
-        {
-            "type": "item",
-            "title": "Overview",
-            "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "Webhooks Reference",
-            "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "Response Examples",
-            "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "Troubleshooting",
-            "uri": "#"
-        },
-        {
-            "type": "divider",
             "title": "OAuth",
             "uri": "#"
         },
@@ -109,6 +85,54 @@
             "type": "item",
             "title": "FAQ",
             "uri": "#"
-        }
+        },
+        {
+          "type": "divider",
+          "title": "Webhooks"
+      },
+      {
+          "type": "item",
+          "title": "Overview",
+          "uri": "#"
+      },
+      {
+          "type": "item",
+          "title": "Webhooks Reference",
+          "uri": "#"
+      },
+      {
+          "type": "item",
+          "title": "Response Examples",
+          "uri": "#"
+      },
+      {
+          "type": "item",
+          "title": "Troubleshooting",
+          "uri": "#"
+      },
+      {
+        "type": "divider",
+        "title": "Async Batches"
+    },
+    {
+        "type": "item",
+        "title": "Reference",
+        "uri": "#"
+    },
+    {
+        "type": "item",
+        "title": "Task Bodies",
+        "uri": "#"
+    },
+    {
+        "type": "divider",
+        "title": "Resources",
+        "uri": "#"
+    },
+    {
+      "type": "divider",
+      "title": "Resources",
+      "uri": "#"
+  }
     ]
 }
