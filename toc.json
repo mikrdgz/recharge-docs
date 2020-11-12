@@ -136,19 +136,39 @@
   },
 {
   "type": "item",
-  "title": "Auto-Expire Subscriptions",
+  "title": "Auto-expire subscriptions",
   "uri": "#"
 },
 {
   "type": "item",
-  "title": "Update Cart Attributes",
+  "title": "Update cart attributes",
   "uri": "#"
 },
 {
   "type": "item",
-  "title": "Add a One-Time Gift to an Existing Subscription",
+  "title": "Add a one-time gift to an existing subscription",
   "uri": "#"
-}
+},
+{
+  "type": "item",
+  "title": "Add a subscription gift to an existing subscription",
+  "uri": "#"
+},
+{
+  "type": "item",
+  "title": "Purchase a gift subscription for someone",
+  "uri": "#"
+},
+{
+  "type": "item",
+  "title": "How to set up a quarterly subscription on fixed X day of Y month",
+  "uri": "#"
+},
+{
+  "type": "item",
+  "title": "Building an SMS integration",
+  "uri": "#"
+},
 
     ]
 }
