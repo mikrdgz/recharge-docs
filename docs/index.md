@@ -1,3 +1,4 @@
-#Welcome
+#Welcome to ReCharge!
 
-blah
+|Test| Value|
+|Hello| Yup|
