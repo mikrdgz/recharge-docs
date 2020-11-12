@@ -1,91 +1,114 @@
 {
-  "items": [
-    {
-      "type": "divider",
-      "title": "Getting Started"
-    },
-    {
-      "type": "item",
-      "title": "Introduction",
-      "uri": "#"
-    },
-    {
-      "type": "group",
-      "title": "Authentication",
-      "items": [
+    "items": [
         {
-          "type": "item",
-          "title": "Obtaining Credentials",
-          "uri": "#"
+            "type": "divider",
+            "title": "Getting Started"
+        },
+        {
+            "type": "item",
+            "title": "Introduction",
+            "uri": "#"
+        },
+        {
+            "type": "group",
+            "title": "Authentication",
+            "items": [
+                {
+                    "type": "item",
+                    "title": "Obtaining Credentials",
+                    "uri": "#"
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "title": "Headless",
+            "uri": "#"
+        },
+        {
+            "type": "group",
+            "title": "Retrieving Data",
+            "items": [
+                {
+                    "type": "item",
+                    "title": "Sorting results",
+                    "uri": "#"
+                },
+                {
+                    "type": "item",
+                    "title": "Cursor Pagination",
+                    "uri": "#"
+                },
+                {
+                    "type": "item",
+                    "title": "Legacy Pagination",
+                    "uri": "#"
+                },
+                {
+                    "type": "item",
+                    "title": "Client-Side API Filtering",
+                    "uri": "#"
+                }
+            ]
+        },
+        {
+            "type": "item",
+            "title": "Best Practices",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "FAQ",
+            "uri": "#"
+        },
+        {
+            "type": "divider",
+            "title": "Webhooks"
+        },
+        {
+            "type": "item",
+            "title": "Overview",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Webhooks Reference",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Response Examples",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Troubleshooting",
+            "uri": "#"
+        },
+        {
+            "type": "divider",
+            "title": "OAuth",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Overview",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "OAuth Tutorial",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Scopes",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "FAQ",
+            "uri": "#"
         }
-      ]
-    },
-    {
-      "type": "item",
-      "title": "Headless",
-      "uri": "#"
-    },
-    {
-      "type": "group",
-      "title": "Retrieving Data",
-      "items": [
-        {
-          "type": "item",
-          "title": "Sorting results",
-          "uri": "#"
-        },
-        {
-          "type": "item",
-          "title": "Cursor Pagination",
-          "uri": "#"
-        },
-        {
-          "type": "item",
-          "title": "Legacy Pagination",
-          "uri": "#"
-        },
-        {
-          "type": "item",
-          "title": "Client-Side API Filtering",
-          "uri": "#"
-        }
-      ]
-    },
-    {
-      "type": "item",
-      "title": "Best Practices",
-      "uri": "#"
-    },
-    {
-      "type": "item",
-      "title": "FAQ",
-      "uri": "#"
-    },
-    {
-      "type": "group",
-      "title": "Webhooks",
-      "items": [
-        {
-          "type": "item",
-          "title": "Overview",
-          "uri": "#"
-        },
-        {
-          "type": "item",
-          "title": "Webhooks Reference",
-          "uri": "#"
-        },
-        {
-          "type": "item",
-          "title": "Response Examples",
-          "uri": "#"
-        },
-        {
-          "type": "item",
-          "title": "Troubleshooting",
-          "uri": "#"
-        }
-      ]
-    }
-  ]
+    ]
 }
