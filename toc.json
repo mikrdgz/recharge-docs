@@ -131,8 +131,24 @@
     },
     {
       "type": "divider",
-      "title": "Resources",
+      "title": "Use Cases",
       "uri": "#"
-  }
+  },
+{
+  "type": "item",
+  "title": "Auto-Expire Subscriptions",
+  "uri": "#"
+},
+{
+  "type": "item",
+  "title": "Update Cart Attributes",
+  "uri": "#"
+},
+{
+  "type": "item",
+  "title": "Add a One-Time Gift to an Existing Subscription",
+  "uri": "#"
+}
+
     ]
 }
