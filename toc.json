@@ -125,11 +125,6 @@
         "uri": "#"
     },
     {
-        "type": "divider",
-        "title": "Resources",
-        "uri": "#"
-    },
-    {
       "type": "divider",
       "title": "Use Cases",
       "uri": "#"
@@ -168,7 +163,11 @@
   "type": "item",
   "title": "Building an SMS integration",
   "uri": "#"
+},
+{
+  "type": "divider",
+  "title": "Resources",
+  "uri": "#"
 }
-
     ]
 }
