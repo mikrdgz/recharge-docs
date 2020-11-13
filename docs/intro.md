@@ -1,4 +1,3 @@
-#Welcome to ReCharge!
+# Welcome to ReCharge!
 
-|Test| Value|
-|Hello| Yup|
+ReCharge empowers ecommerce businesses by unlocking subscriptions and recurring billing. Integrate ReCharge to any storefront experience using our APIs.
