@@ -15,7 +15,7 @@ If you offer a subscription where the product a customer receives should changeb
 
 Callback payloads are identical to ReCharge's REST API payloads. For example, the callback for the `subscription/created` webhook will be identical to the payload of a `GET` request to the `subscriptions/<subscription_id>` endpoint.
 
-You should acknowledge you've received ReCharge's webhook callback by sending a `200 OK` response. If ReCharge doesn't receive a response, or receives any response outside of the `200` range, ReCharge will act as though you did not receive the callback. Our server waits 5 seconds for a response. If we do not receive a response in that time period we consider the request failed. Our system will attempt to send the same webhook 20 times over a period of 48 hours (or two days). If the request fails each time our within this timeframe, we will delete this webhook from our system. At this present we also log these deleted webhooks.
+You should acknowledge you've received ReCharge's webhook callback by sending a `200 OK` response. If ReCharge doesn't receive a response, or receives any response outside of the `200` range, ReCharge will act as though you did not receive the callback. Our server waits 5 seconds for a response. If we do not receive a response in that time period we consider the request failed. Our system will attempt to send the same webhook 20 times over a period of 48 hours (or two days). If the request fails each time our within this timeframe, we will delete this webhook from our system. At present we also log these deleted webhooks in our system.
 
 <br>
 
