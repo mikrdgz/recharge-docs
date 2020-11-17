@@ -93,7 +93,7 @@
       {
           "type": "item",
           "title": "Overview",
-          "uri": "#"
+          "uri": "docs/webhooks-overview.md"
       },
       {
           "type": "item",
