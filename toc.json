@@ -12,7 +12,7 @@
         {
             "type": "item",
             "title": "Authentication",
-            "uri": "#"
+            "uri": "docs/authentication.md"
         },
         {
             "type": "item",
