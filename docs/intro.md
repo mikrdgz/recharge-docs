@@ -8,4 +8,4 @@ The base URL for ReCharge's rest API is `https://api.rechargeapps.com`
 ## Data structure
 Subscriptions are tied to a given address. Each customer can have multiple address objects (many-to-one) in a relationship. 
 
-![ReCharge API data structure](docs/assets/images/shop1.png "Data structure")
+![ReCharge API data structure](assets/images/shop1.png "Data structure")
