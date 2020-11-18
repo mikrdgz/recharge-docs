@@ -1,5 +1,9 @@
 # Welcome to ReCharge Docs
-ReCharge empowers ecommerce developers to unlock subscriptions and recurring billing for their users. Integrate ReCharge to any storefront experience using our REST APIs. Create custom functionality, such as programatically updating subscriptions, aggregating data to create external dashboards and more.
+ReCharge empowers ecommerce developers to unlock subscriptions and recurring billing for their users. Integrate ReCharge to any storefront experience using our REST APIs. You can add custom functionality to online stores such as:
+
+- Creating membership-based subscription programs
+- Programatically updating subscriptions 
+- Aggregating data to create external dashboards
 
 ## API reference
 
