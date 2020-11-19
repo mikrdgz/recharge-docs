@@ -10,15 +10,9 @@
             "uri": "docs/intro.md"
         },
         {
-            "type": "group",
+            "type": "item",
             "title": "Authentication",
-            "items": [
-                {
-                    "type": "item",
-                    "title": "Obtaining Credentials",
-                    "uri": "#"
-                }
-            ]
+            "uri": "docs/authentication.md"
         },
         {
             "type": "item",
@@ -93,7 +87,7 @@
       {
           "type": "item",
           "title": "Overview",
-          "uri": "#"
+          "uri": "docs/webhooks-overview.md"
       },
       {
           "type": "item",
