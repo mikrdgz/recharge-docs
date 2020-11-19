@@ -14,19 +14,35 @@ paths:
     get:
       summary: Retrieve Webhook
       tags: []
-      responses:
-        '200':
-          description: OK
       operationId: get-webhooks
       requestBody:
         content:
           application/json:
             schema:
-              type: object
-              properties: {}
+              $ref: ../models/webhook-response.v1.yaml
           application/xml:
             schema:
               $ref: ../models/webhook.v1.yaml
+          multipart/form-data:
+            schema:
+              $ref: ''
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  webhook:
+                    $ref: ../models/webhook-response.v1.yaml
+              examples:
+                Example:
+                  value:
+                    webhook:
+                      address: 'https://request.in/foo'
+                      id: 19451
+                      topic: subscription/created
     parameters: []
     post:
       summary: Create Webhook
