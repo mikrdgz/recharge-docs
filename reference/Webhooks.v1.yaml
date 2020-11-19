@@ -1,0 +1,15 @@
+openapi: 3.0.0
+info:
+  title: Webhooks
+  version: '1.0'
+  contact:
+    name: ReCharge
+    url: rechargepayments.com
+  termsOfService: 'https://rechargepayments.com/terms-of-service/'
+  description: Use webhooks to listen for events within the ReCharge app.
+servers:
+  - url: 'https://api.rechargeapps.com/webhooks'
+paths: {}
+components:
+  schemas: {}
+  securitySchemes: {}
