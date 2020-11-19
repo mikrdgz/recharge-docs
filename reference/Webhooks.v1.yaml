@@ -12,9 +12,11 @@ servers:
 paths:
   '/webhooks/{id}':
     get:
-      summary: Your GET endpoint
+      summary: Retrieve Webhook
       tags: []
-      responses: {}
+      responses:
+        '200':
+          description: OK
       operationId: get-webhooks
       requestBody:
         content:
@@ -27,11 +29,15 @@ paths:
               $ref: ../models/webhook.v1.yaml
     parameters: []
     post:
-      summary: ''
+      summary: Create Webhook
       operationId: post-webhooks-id
       responses:
         '200':
           description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/webhook-response'
 components:
   schemas: {}
   securitySchemes: {}

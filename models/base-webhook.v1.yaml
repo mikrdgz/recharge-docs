@@ -1,0 +1,18 @@
+title: base-webhook
+type: object
+x-examples:
+  Example:
+    address: 'https://request.in/foo'
+    topc: subscription/created
+description: ''
+properties:
+  address:
+    type: string
+    description: The URI where the webhook should send the POST request when the event occurs.
+  topic:
+    type: string
+    description: |
+      The event that will trigger the webhook.
+required:
+  - address
+  - topic
