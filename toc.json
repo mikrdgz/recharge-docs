@@ -92,7 +92,7 @@
       {
           "type": "item",
           "title": "Webhooks Reference",
-          "uri": "#"
+          "uri": "reference/Webhooks.v1.yaml"
       },
       {
           "type": "item",
