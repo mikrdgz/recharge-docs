@@ -15,17 +15,6 @@ paths:
       summary: Retrieve Webhook
       tags: []
       operationId: get-webhooks
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: ../models/webhook-response.v1.yaml
-          application/xml:
-            schema:
-              $ref: ../models/webhook.v1.yaml
-          multipart/form-data:
-            schema:
-              $ref: ''
       responses:
         '200':
           description: OK
@@ -43,6 +32,7 @@ paths:
                       address: 'https://request.in/foo'
                       id: 19451
                       topic: subscription/created
+      description: Retrieve a webhook by ID.
     parameters: []
     post:
       summary: Create Webhook
