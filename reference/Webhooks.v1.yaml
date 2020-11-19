@@ -9,7 +9,29 @@ info:
   description: Use webhooks to listen for events within the ReCharge app.
 servers:
   - url: 'https://api.rechargeapps.com/webhooks'
-paths: {}
+paths:
+  '/webhooks/{id}':
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-webhooks
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties: {}
+          application/xml:
+            schema:
+              $ref: ../models/webhook.v1.yaml
+    parameters: []
+    post:
+      summary: ''
+      operationId: post-webhooks-id
+      responses:
+        '200':
+          description: OK
 components:
   schemas: {}
   securitySchemes: {}
