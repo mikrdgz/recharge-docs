@@ -81,87 +81,87 @@
             "uri": "#"
         },
         {
-          "type": "divider",
-          "title": "Webhooks"
-      },
-      {
-          "type": "item",
-          "title": "Overview",
-          "uri": "docs/webhooks-overview.md"
-      },
-      {
-          "type": "item",
-          "title": "Webhooks Reference",
-          "uri": "reference/Webhooks.v1.yaml"
-      },
-      {
-          "type": "item",
-          "title": "Response Examples",
-          "uri": "#"
-      },
-      {
-          "type": "item",
-          "title": "Troubleshooting",
-          "uri": "#"
-      },
-      {
-        "type": "divider",
-        "title": "Async Batches"
-    },
-    {
-        "type": "item",
-        "title": "Reference",
-        "uri": "#"
-    },
-    {
-        "type": "item",
-        "title": "Task Bodies",
-        "uri": "#"
-    },
-    {
-      "type": "divider",
-      "title": "Use Cases",
-      "uri": "#"
-  },
-{
-  "type": "item",
-  "title": "Auto-expire subscriptions",
-  "uri": "#"
-},
-{
-  "type": "item",
-  "title": "Update cart attributes",
-  "uri": "#"
-},
-{
-  "type": "item",
-  "title": "Add a one-time gift to an existing subscription",
-  "uri": "#"
-},
-{
-  "type": "item",
-  "title": "Add a subscription gift to an existing subscription",
-  "uri": "#"
-},
-{
-  "type": "item",
-  "title": "Purchase a gift subscription for someone",
-  "uri": "#"
-},
-{
-  "type": "item",
-  "title": "How to set up a quarterly subscription on fixed X day of Y month",
-  "uri": "#"
-},
-{
-  "type": "item",
-  "title": "Building an SMS integration",
-  "uri": "#"
-},
-{
-  "type": "divider",
-  "title": "Resources",
-  "uri": "#"
-}
+            "type": "divider",
+            "title": "Webhooks"
+        },
+        {
+            "type": "item",
+            "title": "Overview",
+            "uri": "docs/webhooks-overview.md"
+        },
+        {
+            "type": "item",
+            "title": "Webhooks Events",
+            "uri": "docs/webhooks-overview.md"
+        },
+        {
+            "type": "item",
+            "title": "Troubleshooting",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Webhooks Reference",
+            "uri": "reference/Webhooks.v1.yaml"
+        },
+        {
+            "type": "divider",
+            "title": "Async Batches"
+        },
+        {
+            "type": "item",
+            "title": "Reference",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Task Bodies",
+            "uri": "#"
+        },
+        {
+            "type": "divider",
+            "title": "Use Cases",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Auto-expire subscriptions",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Update cart attributes",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Add a one-time gift to an existing subscription",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Add a subscription gift to an existing subscription",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Purchase a gift subscription for someone",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "How to set up a quarterly subscription on fixed X day of Y month",
+            "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "Building an SMS integration",
+            "uri": "#"
+        },
+        {
+            "type": "divider",
+            "title": "Resources",
+            "uri": "#"
+        }
     ]
 }
