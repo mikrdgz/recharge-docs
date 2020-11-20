@@ -81,28 +81,19 @@
             "uri": "#"
         },
         {
-            "type": "divider",
-            "title": "Webhooks"
-        },
-        {
             "type": "item",
-            "title": "Overview",
-            "uri": "docs/webhooks-overview.md"
+            "title": "Webhooks Reference",
+            "uri": "reference/Webhooks.v1.yaml"
         },
         {
             "type": "item",
             "title": "Webhooks Events",
-            "uri": "docs/webhooks-overview.md"
+            "uri": "#"
         },
         {
             "type": "item",
             "title": "Troubleshooting",
             "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "Webhooks Reference",
-            "uri": "reference/Webhooks.v1.yaml"
         },
         {
             "type": "divider",
