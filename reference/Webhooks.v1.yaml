@@ -103,6 +103,13 @@ paths:
             application/json:
               schema:
                 $ref: ../models/webhook-response.v1.yaml
+              examples:
+                Example:
+                  value:
+                    webhook:
+                      address: 'https://request.in/foo'
+                      id: 6
+                      topic: subscription/created
       operationId: put-id
       description: Update a webhook.
       requestBody:
