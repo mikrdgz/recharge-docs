@@ -8,13 +8,34 @@ info:
   termsOfService: 'https://rechargepayments.com/terms-of-service/'
   description: Use webhooks to listen for events within the ReCharge app.
 servers:
-  - url: 'https://api.rechargeapps.com/webhooks'
+  - url: 'https://api.rechargeapps.com'
 paths:
-  '/webhooks/{id}':
+  /webhooks:
     get:
-      summary: Retrieve Webhook
+      summary: Retrieve all webhooks
       tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ../models/get-hooks.v1.yaml
+              examples:
+                Example:
+                  value:
+                    webhooks:
+                      - address: 'https://request.in/foo'
+                        id: 19451
+                        topic: subscription/created
+                      - address: 'https://request.in/foo'
+                        id: 19453
+                        topic: subscription/cancelled
       operationId: get-webhooks
+      description: Retrieve all available webhooks.
+    post:
+      summary: Create a webhook
+      operationId: post-webhooks
       responses:
         '200':
           description: OK
@@ -30,20 +51,89 @@ paths:
                   value:
                     webhook:
                       address: 'https://request.in/foo'
-                      id: 19451
+                      id: 6
                       topic: subscription/created
-      description: Retrieve a webhook by ID.
-    parameters: []
-    post:
-      summary: Create Webhook
-      operationId: post-webhooks-id
+      description: Create a webhook.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: ../models/base-webhook.v1.yaml
+            examples:
+              Example:
+                value:
+                  webhook:
+                    address: 'https://request.in/foo'
+                    id: 6
+                    topic: subscription/created
+  '/{id}':
+    parameters:
+      - schema:
+          type: string
+        name: id
+        in: path
+        required: true
+    get:
+      summary: Retrieve webhook
+      tags: []
       responses:
         '200':
           description: OK
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/webhook-response'
+                type: object
+                properties:
+                  webhook:
+                    $ref: ../models/webhook-response.v1.yaml
+              examples:
+                Example:
+                  value:
+                    webhook:
+                      address: 'https://request.in/foo'
+                      id: 6
+                      topic: subscription/created
+      operationId: get-id
+      description: Retrieve a webhook.
+    put:
+      summary: Update webhook
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: ../models/webhook-response.v1.yaml
+      operationId: put-id
+      description: Update a webhook.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                address:
+                  type: string
+                topic:
+                  type: string
+            examples:
+              Example:
+                value:
+                  address: 'https://request.in/foo'
+          application/xml:
+            schema:
+              type: object
+              properties: {}
+        description: ''
+    delete:
+      summary: Delete webhook
+      tags: []
+      responses:
+        '200':
+          description: OK
+      operationId: delete-id
+      description: Delete a webhook.
 components:
   schemas: {}
   securitySchemes: {}
