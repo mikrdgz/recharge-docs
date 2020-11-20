@@ -6,8 +6,8 @@ info:
     name: ReCharge
     url: rechargepayments.com
   termsOfService: 'https://rechargepayments.com/terms-of-service/'
-  description: |+
-    # Webhooks Overview
+  description: |
+    # Overview
 
     Webhooks notify you about events happening within ReCharge. They can feed data into your client-side application that you can use to take action. Webhooks deliver data about events like customers adding an item to cart, subscription cancellations and other specific events in real-time. 
 
@@ -30,7 +30,6 @@ info:
     <!-- theme: warning -->
     > ### Retries
     > Due to webhook retries, it’s possible that your application will receive the same webhook more than once. Ensure idempotency of the webhook call by detecting such duplicates within your application.
-
 servers:
   - url: 'https://api.rechargeapps.com'
 paths:
