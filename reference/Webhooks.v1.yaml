@@ -7,7 +7,6 @@ info:
     url: rechargepayments.com
   termsOfService: 'https://rechargepayments.com/terms-of-service/'
   description: |
-    # Overview
 
     Webhooks notify you about events happening within ReCharge. They can feed data into your client-side application that you can use to take action. Webhooks deliver data about events like customers adding an item to cart, subscription cancellations and other specific events in real-time. 
 
