@@ -87,9 +87,20 @@
         },
         {
             "type": "divider",
-            "title": "Use Cases",
-            "uri": "#"
+            "title": "Webhooks"
         },
+
+        {
+            "type":"item",
+            "title":"Overview",
+            "uri": "docs/webhooks_overview.md"
+            
+        },
+        {
+            "type": "divider",
+            "title": "Use Cases"
+        },
+        
         {
             "type": "item",
             "title": "Auto-expire subscriptions",
