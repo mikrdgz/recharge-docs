@@ -20,32 +20,6 @@
             "uri": "#"
         },
         {
-            "type": "group",
-            "title": "Retrieving Data",
-            "items": [
-                {
-                    "type": "item",
-                    "title": "Sorting results",
-                    "uri": "#"
-                },
-                {
-                    "type": "item",
-                    "title": "Cursor Pagination",
-                    "uri": "#"
-                },
-                {
-                    "type": "item",
-                    "title": "Legacy Pagination",
-                    "uri": "#"
-                },
-                {
-                    "type": "item",
-                    "title": "Client-Side API Filtering",
-                    "uri": "#"
-                }
-            ]
-        },
-        {
             "type": "item",
             "title": "Best Practices",
             "uri": "#"
