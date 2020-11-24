@@ -82,16 +82,6 @@
         },
         {
             "type": "item",
-            "title": "Webhooks Reference",
-            "uri": "reference/Webhooks.v1.yaml"
-        },
-        {
-            "type": "item",
-            "title": "Webhooks Events",
-            "uri": "#"
-        },
-        {
-            "type": "item",
             "title": "Troubleshooting",
             "uri": "#"
         },
