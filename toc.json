@@ -97,20 +97,6 @@
         },
         {
             "type": "divider",
-            "title": "Async Batches"
-        },
-        {
-            "type": "item",
-            "title": "Reference",
-            "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "Task Bodies",
-            "uri": "#"
-        },
-        {
-            "type": "divider",
             "title": "Use Cases",
             "uri": "#"
         },
