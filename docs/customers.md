@@ -2,7 +2,7 @@
 
 ## What is a Customer?
 
-A Customer record is created within ReCharge when a shopper checks out on an ecommerce storefront with a ReCharge subscription. 
+ReCharge creates a Customer record when a shopper checks out on an ecommerce storefront with a ReCharge subscription. 
 
 The Customer object contains key information such as:
 
