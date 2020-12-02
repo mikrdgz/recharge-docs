@@ -10,7 +10,7 @@ The Customer object contains key information such as:
 - Billing information
 - The external id associated with the customer on an ecommerce platform
 
-The Customer object is update when either a merchant [updates the Customer information](https://support.rechargepayments.com/hc/en-us/articles/360008682314-Updating-billing-information-for-a-customer) or when the customer themselves edit their information  in the [ReCharge Customer Portal](https://support.rechargepayments.com/hc/en-us/articles/360008683274-Customer-portal-).
+The Customer record changes when either a merchant [updates the Customer information](https://support.rechargepayments.com/hc/en-us/articles/360008682314-Updating-billing-information-for-a-customer) or when the customer themselves edit their information  in the [ReCharge Customer Portal](https://support.rechargepayments.com/hc/en-us/articles/360008683274-Customer-portal-).
 
 You may need to interact with the Customer object when, for example, a customer adds a new payment method to their account on an external ecommerce store or changes their billing information.
 
