@@ -28,31 +28,28 @@ The Addresses endpoint is a child of the Customer object. Customers can have man
 ![customers](assets/images/customer.png)
 
 
-## Payment Method
+## Customer Payment Method
 
 Update the customer object to add or update a customer's payment method. ReCharge doesn't accept payment information such as the card number. You should send a tokenized customer representation from the payment processor.
 
 
 ## Use Cases
 
-!--
-type: tab
-title: Some Content
--->
-
-# Content!
-
-Sweet, beautiful content, ready to blow your readers' minds.
-
 <!--
 type: tab
-title: Some More Content
+title: Update Payment Method
 -->
 
-# More Content!
+You will send a `PUT` to the `/customers/{id}` endpoint with the tokenized customer representation from the payment provider. 
 
-With more mind-blowing material. Really. Just amazing, grade-A stuff.
+### Example
 
+```json
+
+{
+    "stripe_customer_token": "cus_IV0hD7FtykKe1a"
+}
+```
 <!-- type: tab-end -->
 
 
