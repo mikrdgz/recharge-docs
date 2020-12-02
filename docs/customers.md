@@ -30,17 +30,16 @@ The Addresses endpoint is a child of the Customer object. Customers can have man
 
 ## Customer payment method
 
-Update the customer object to add or update a customer's payment method. ReCharge doesn't accept payment information such as the card number. You should send a tokenized customer representation from the payment processor.
-
+Update the customer object to add or update a customer's payment method. ReCharge doesn't accept payment information directly. You should send a tokenized customer representation from the payment processor to add or update the payment method. The Stripe [customer token](https://stripe.com/docs/api/customers/object#customer_object-sources-data-tokenization_method) should begin with the prefix `cus`, not `tok`.
 
 ## Use cases
 
 <!--
 type: tab
-title: Update Payment Method
+title: Update payment method
 -->
 
-You will send a `PUT` to the `/customers/{id}` endpoint with the tokenized customer representation from the payment provider. 
+`PUT` to `/customers/{id}` endpoint
 
 ### Example request body
 
@@ -50,6 +49,31 @@ You will send a `PUT` to the `/customers/{id}` endpoint with the tokenized custo
     "stripe_customer_token": "cus_IV0hD7FtykKe1a"
 }
 ```
+
+<!--
+type: tab
+title: Update billing information
+-->
+
+`PUT` to `/customers/{id}` endpoint
+
+### Example request body
+
+```json
+{
+    "first_name": "Mike",
+    "last_name": "Flynn",
+    "billing_address1": "3030 Nebraska Avenue",
+    "billing_address2": null,
+    "billing_zip": "90404",
+    "billing_city": "Los Angeles",
+    "billing_company": null,
+    "billing_province": "California",
+    "billing_country": "United States",
+    "billing_phone": "3103843698",
+}
+```
+
 <!-- type: tab-end -->
 
 
