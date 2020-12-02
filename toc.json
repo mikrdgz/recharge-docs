@@ -53,12 +53,7 @@
             "type": "item",
             "title": "FAQ",
             "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "Troubleshooting",
-            "uri": "#"
-        },
+        }, 
         {
             "type": "divider",
             "title": "Webhooks"
@@ -69,6 +64,15 @@
             "title":"Overview",
             "uri": "docs/webhooks-overview.md"
             
+        },
+        {
+            "type": "divider",
+            "title": "ReCharge API"
+        },
+        {
+            "type": "item",
+            "title": "Customers",
+            "uri": "docs/customers.md"
         },
         {
             "type": "divider",
