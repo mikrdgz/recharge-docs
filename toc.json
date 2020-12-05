@@ -118,6 +118,11 @@
             "type": "divider",
             "title": "Resources",
             "uri": "#"
+        },
+        {
+            "type": "item",
+            "title": "API Reference",
+            "uri": "https://developer.rechargepayments.com/"
         }
     ]
 }
