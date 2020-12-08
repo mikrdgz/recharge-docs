@@ -31,6 +31,20 @@
         },
         {
             "type": "divider",
+            "title": "ReCharge API"
+        },
+        {
+            "type": "item",
+            "title": "Customers",
+            "uri": "docs/customers.md"
+        },
+        {
+            "type": "item",
+            "title": "Orders",
+            "uri": "docs/orders.md"
+        },
+        {
+            "type": "divider",
             "title": "OAuth",
             "uri": "#"
         },
@@ -64,15 +78,6 @@
             "title":"Overview",
             "uri": "docs/webhooks-overview.md"
             
-        },
-        {
-            "type": "divider",
-            "title": "ReCharge API"
-        },
-        {
-            "type": "item",
-            "title": "Customers",
-            "uri": "docs/customers.md"
         },
         {
             "type": "divider",
@@ -116,12 +121,12 @@
         },
         {
             "type": "divider",
-            "title": "Resources",
+            "title": "API Reference",
             "uri": "#"
         },
         {
             "type": "item",
-            "title": "API Reference",
+            "title": "ReCharge API",
             "uri": "https://developer.rechargepayments.com/"
         }
     ]

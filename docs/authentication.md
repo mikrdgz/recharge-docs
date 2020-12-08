@@ -7,7 +7,7 @@ The API key is required for all API requests to the server. We only accept API r
 >### Header
 >`X-Recharge-Access-Token: your_api_token`
 
-## Example Requests
+## Example requests
 
 <!--
 type: tab

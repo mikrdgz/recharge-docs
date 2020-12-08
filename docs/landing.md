@@ -14,7 +14,7 @@ This site expands upon our existing API documentation by providing guides, refer
 For more information on the features included in ReCharge's turnkey solution, visit our **[Help Center](https://support.rechargepayments.com/hc/en-us)**.
 
 
-## Become a ReCharge Partner
+## Become a ReCharge partner
 Receive financial incentives, one-on-one support and access to the latest beta features when you join the [ReCharge Partner program](https://rechargepayments.com/partners/).
 
 ## Changelog

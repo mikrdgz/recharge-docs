@@ -31,6 +31,7 @@ The Addresses endpoint is a child of the Customer object. Customers can have man
 
 ![customers](assets/images/customer.png)
 
+The address nested under a customer resource is the customer's billing address associated with their payment method. It is not the address associated with delivery of a subscription. For the subscription delivery address, see [Subscriptions](#)
 
 ## Customer payment method
 
@@ -88,6 +89,10 @@ title: Update billing information
 >|Deprecated field|Alternative|
 >|-|-|
 >|`product_title`|`title`|
->|`shipping_date`|`shopify_order_id`|
+>|`shipping_date`|`scheduled_at`|
+>|`shopify_id`|`shopify_order_id`|
 >|`address_is_active`|Ignore, field not applicable|
+
+## API Reference
+[Customers](https://developer.rechargepayments.com/#customers)
 
