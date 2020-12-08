@@ -15,6 +15,11 @@ An order contains all the same JSON data as the charge. In case of a prepaid ord
 |`read_orders`| Required to read customer record.|
 
 
+## Line Items
+You ccan update `line_item` properties on Prepaid Queued Orders. To change Queued Charges, you must change the parent subscription(s) or address.
+
+When updating `line_items` you must provide the entire JSON that was in line_items before, as the data provied overrides the entire block and only new parameters will remain.
+
 ## Use cases
 
 <!-- theme: warning -->
