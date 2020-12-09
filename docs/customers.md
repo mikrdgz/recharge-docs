@@ -44,7 +44,7 @@ type: tab
 title: Update payment method
 -->
 
-`PUT` to `/customers/{id}` endpoint
+`PUT` to `/customers/:id` endpoint
 
 ### Example request body
 
@@ -60,7 +60,7 @@ type: tab
 title: Update billing information
 -->
 
-`PUT` to `/customers/{id}` endpoint
+`PUT` to `/customers/:id` endpoint
 
 ### Example request body
 
@@ -80,7 +80,6 @@ title: Update billing information
 ```
 
 <!-- type: tab-end -->
-
 
 <!-- theme: warning -->
 > ### Deprecated fields
