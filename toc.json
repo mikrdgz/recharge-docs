@@ -44,6 +44,11 @@
             "uri": "docs/orders.md"
         },
         {
+            "type": "item",
+            "title": "Subscriptions",
+            "uri": "docs/subscriptions.md"
+        },
+        {
             "type": "divider",
             "title": "OAuth",
             "uri": "#"
