@@ -10,8 +10,8 @@ At this time, you can only update orders that are [prepaid queued order](https:/
 ## Scopes
 |Scope|Description|
 |-|-|
-|`write_orders`| Required to write to the customer record.|
-|`read_orders`| Required to read customer record.|
+|`write_orders`| Required to write to the orders record.|
+|`read_orders`| Required to read orders record.|
 
 
 ## Updating line items

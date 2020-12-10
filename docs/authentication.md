@@ -4,7 +4,7 @@ ReCharge uses API keys to allow access to our APIs. To obtain API access, **[con
 
 The API key is required for all API requests to the server. We only accept API requests over HTTPS.
 
->### Header
+> ### Header
 >`X-Recharge-Access-Token: your_api_token`
 
 ## Example requests

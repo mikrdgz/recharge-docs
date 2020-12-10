@@ -21,7 +21,8 @@ You may need to interact with the Customer object when, for example, a customer 
 
 |Scope|Description|
 |-|-|
-|`write customer`| Required to write to the customer record.|
+|`write_customer`| Required to write to the customer record.|
+|`read_customer`| Required to write to the customer record.|
 |`write_payments`| This scope is only needed when creating or updating customer payment token information.|
 
 
