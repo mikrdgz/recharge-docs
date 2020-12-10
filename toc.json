@@ -46,7 +46,7 @@
         {
             "type": "item",
             "title": "Subscriptions",
-            "uri": "docs/subscriptions.md"
+            "uri": "docs/subscription.md"
         },
         {
             "type": "divider",
