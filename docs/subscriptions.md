@@ -14,6 +14,11 @@ A customer can only have one subscription of the same product on one address. Cu
 
 ## Updating a Subscription
 
+If you are making changes to any of the following parameters, you must update all of them because they are tied to one another.
+
+- `order_interval_unit`
+- `order_interval_frequency`
+- `charge_interval_frequency`
 
 ## Shopify and multi-product Subscriptions
 

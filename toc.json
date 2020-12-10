@@ -49,6 +49,11 @@
             "uri": "docs/subscriptions.md"
         },
         {
+            "type": "item",
+            "title": "Metafields",
+            "uri": "docs/metafields.md"
+        },
+        {
             "type": "divider",
             "title": "OAuth",
             "uri": "#"
