@@ -17,7 +17,7 @@ You may need to interact with the Customer object when, for example, a customer 
 <!-- theme: info -->
 > Creating a customer within ReCharge will not create a customer record within an external ecommerce platform at this time.
 
-## Scopes
+### Scopes
 
 |Scope|Description|
 |-|-|
@@ -93,6 +93,6 @@ title: Update billing information
 >|`shopify_id`|`shopify_order_id`|
 >|`address_is_active`|Ignore, field not applicable|
 
-## API Reference
+## Resources
 [Customers](https://developer.rechargepayments.com/#customers)
 
