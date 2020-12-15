@@ -65,8 +65,7 @@
         },
         {
             "type": "divider",
-            "title": "OAuth",
-            "uri": "#"
+            "title": "OAuth"
         },
         {
             "type": "item",
@@ -92,7 +91,6 @@
             "type": "divider",
             "title": "Use Cases and Guides"
         },
-        
         {
             "type": "item",
             "title": "Auto-expire subscriptions",
