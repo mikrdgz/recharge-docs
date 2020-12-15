@@ -2,7 +2,7 @@
     "items": [
         {
             "type": "divider",
-            "title": "Getting Started"
+            "title": "API Quick Start"
         },
         {
             "type": "item",
@@ -31,7 +31,19 @@
         },
         {
             "type": "divider",
-            "title": "ReCharge API"
+            "title": "Shopify Integration"
+        },
+        {
+            "type": "divider",
+            "title": "BigCommerce Integration"
+        },
+        {
+            "type": "divider",
+            "title": "Headless Integration"
+        },
+        {
+            "type": "divider",
+            "title": "ReCharge Admin"
         },
         {
             "type": "item",
@@ -59,33 +71,15 @@
             "uri": "docs/addresses.md"
         },
         {
+            "type":"item",
+            "title":"Webhooks Overview",
+            "uri": "docs/webhooks-overview.md"
+            
+        },
+        {
             "type": "item",
             "title": "API Reference",
             "uri": "https://developer.rechargepayments.com/"
-        },
-        {
-            "type": "divider",
-            "title": "OAuth"
-        },
-        {
-            "type": "item",
-            "title": "Overview",
-            "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "OAuth Tutorial",
-            "uri": "#"
-        },
-        {
-            "type": "divider",
-            "title": "Webhooks"
-        },
-        {
-            "type":"item",
-            "title":"Overview",
-            "uri": "docs/webhooks-overview.md"
-            
         },
         {
             "type": "divider",
