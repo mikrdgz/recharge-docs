@@ -77,17 +77,7 @@
             "type": "item",
             "title": "OAuth Tutorial",
             "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "Scopes",
-            "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "FAQ",
-            "uri": "#"
-        }, 
+        }
         {
             "type": "divider",
             "title": "Webhooks"
