@@ -77,12 +77,11 @@
             "type": "item",
             "title": "OAuth Tutorial",
             "uri": "#"
-        }
+        },
         {
             "type": "divider",
             "title": "Webhooks"
         },
-
         {
             "type":"item",
             "title":"Overview",
