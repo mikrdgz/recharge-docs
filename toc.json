@@ -54,6 +54,16 @@
             "uri": "docs/metafields.md"
         },
         {
+            "type": "item",
+            "title": "Addresses",
+            "uri": "docs/addresses.md"
+        },
+        {
+            "type": "item",
+            "title": "API Reference",
+            "uri": "https://developer.rechargepayments.com/"
+        },
+        {
             "type": "divider",
             "title": "OAuth",
             "uri": "#"
@@ -91,18 +101,18 @@
         },
         {
             "type": "divider",
-            "title": "Use Cases"
+            "title": "Use Cases and Guides"
         },
         
         {
             "type": "item",
             "title": "Auto-expire subscriptions",
-            "uri": "#"
+            "uri": "docs/auto-expire.md"
         },
         {
             "type": "item",
             "title": "Update cart attributes",
-            "uri": "#"
+            "uri": "docs/update-cart-attributes.md"
         },
         {
             "type": "item",
@@ -112,7 +122,7 @@
         {
             "type": "item",
             "title": "Add a subscription gift to an existing subscription",
-            "uri": "#"
+            "uri": "docs/one-time-gift.md"
         },
         {
             "type": "item",
@@ -128,16 +138,6 @@
             "type": "item",
             "title": "Building an SMS integration",
             "uri": "#"
-        },
-        {
-            "type": "divider",
-            "title": "API Reference",
-            "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "ReCharge API",
-            "uri": "https://developer.rechargepayments.com/"
         }
     ]
 }
