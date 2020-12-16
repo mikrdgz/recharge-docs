@@ -8,7 +8,7 @@ Making an API request to the ReCharge API requires these steps:
 2. Add the following header to your API client. You can also make a request to our API by setting up your credentials and headers in [Postman](https://www.postman.com/product/api-client/).
 
 > ### Header
->`X-Recharge-Access-Token: /* YOUR_API_TOKEN /*`
+>`X-Recharge-Access-Token: *YOUR_API_TOKEN*`
 
 3. Make a `GET` request to `https://api.rechargeapps.com` with your token populated in the header to receive general data about your ReCharge integration.
 
