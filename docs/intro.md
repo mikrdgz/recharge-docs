@@ -1,5 +1,5 @@
 # Introduction
-You will find reference information, customization recipes and use-case guides for ReCharge's API here in the API Docs space.
+You will find reference information, customization guides and use-case examples for ReCharge's API in this space.
 
 To see the full API schema for each endpoint, visit the [API Reference](https://developer.rechargepayments.com/).
 
