@@ -20,6 +20,7 @@ You can only update `line_item` properties directly on the Orders object if it i
 To update an Order's `line_items`, you must update the corresponding [Subscription](https://developer.rechargepayments.com/?shell#subscriptions), which will then generate a new [Charge](https://developer.rechargepayments.com/?shell#charges). You must make changes to the Order `line_items` this way because the values of this property are inhereted from the Charge model.
 <!-- theme: warning -->
 > When updating `line_items` you must provide all the JSON data that was in `line_items` before the update, as the data you provide in a `PUT` overrides the previous record and only new data will remain.
+
 ![Orders](assets/images/orders.png)
 
 
