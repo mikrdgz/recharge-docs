@@ -16,11 +16,6 @@
         },
         {
             "type": "item",
-            "title": "Headless",
-            "uri": "#"
-        },
-        {
-            "type": "item",
             "title": "Best Practices",
             "uri": "#"
         },
@@ -29,13 +24,205 @@
             "title": "Shopify Integration"
         },
         {
+            "type": "group",
+            "title": "Storefront",
+            "items": [
+              {
+                "type": "item",
+                "title": "Fast",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Custom",
+                "uri": "docs/nested-item.md"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "Checkout",
+            "items": [
+              {
+                "type": "item",
+                "title": "Fast",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Custom",
+                "uri": "docs/nested-item.md"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "Submit an Order",
+            "items": [
+              {
+                "type": "item",
+                "title": "Fast",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Custom",
+                "uri": "docs/nested-item.md"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "Customer Portal",
+            "items": [
+              {
+                "type": "item",
+                "title": "Fast",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Custom",
+                "uri": "docs/nested-item.md"
+              }
+            ]
+          },
+        {
             "type": "divider",
             "title": "BigCommerce Integration"
         },
         {
+            "type": "group",
+            "title": "Storefront",
+            "items": [
+              {
+                "type": "item",
+                "title": "Fast",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Custom",
+                "uri": "docs/nested-item.md"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "Checkout",
+            "items": [
+              {
+                "type": "item",
+                "title": "Fast",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Custom",
+                "uri": "docs/nested-item.md"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "Submit an Order",
+            "items": [
+              {
+                "type": "item",
+                "title": "Fast",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Custom",
+                "uri": "docs/nested-item.md"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "Customer Portal",
+            "items": [
+              {
+                "type": "item",
+                "title": "Fast",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Custom",
+                "uri": "docs/nested-item.md"
+              }
+            ]
+          },
+        {
             "type": "divider",
             "title": "Headless Integration"
         },
+        {
+            "type": "group",
+            "title": "Storefront",
+            "items": [
+              {
+                "type": "item",
+                "title": "Fast",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Custom",
+                "uri": "docs/nested-item.md"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "Checkout",
+            "items": [
+              {
+                "type": "item",
+                "title": "Fast",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Custom",
+                "uri": "docs/nested-item.md"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "Submit an Order",
+            "items": [
+              {
+                "type": "item",
+                "title": "Fast",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Custom",
+                "uri": "docs/nested-item.md"
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "title": "Customer Portal",
+            "items": [
+              {
+                "type": "item",
+                "title": "Fast",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Custom",
+                "uri": "docs/nested-item.md"
+              }
+            ]
+          },
         {
             "type": "divider",
             "title": "ReCharge Admin"
