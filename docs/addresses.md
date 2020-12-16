@@ -1,10 +1,11 @@
 # Addresses 
 ## What are Addresses?
 Addresses represent one of the many shipping locations a customer can have. An address is created when a shopper purchases a subscription. [Subscriptions](https://developer.rechargepayments.com/#subscriptions) are tied to a given address. Each customer can have multiple address objects in a many-to-one relationship. Some use cases for this endpoint are to update customer billing information or overriding a Shopify shipping rate.
-<!-- theme: info -->
-> Customers can subscribe to the same product multiple times as long as they use a different address.
 
 ![addresses](assets/images/addresses.png "addresses")
+
+<!-- theme: info -->
+> Customers can subscribe to the same product multiple times as long as they use a different address.
 
 ### Scopes
 |Scope|Description|
