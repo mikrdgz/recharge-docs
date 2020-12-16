@@ -3,7 +3,7 @@
 ## How to make a request
 Making an API request to the ReCharge API requires these steps:
 
-1. An API key is required for all API requests to the server. We only accept API requests over HTTPS. To obtain API access, **[contact our support team](https://support.rechargepayments.com/hc/en-us/requests/new)**.
+1. ReCharge requires an API key for requests to the server. We only accept requests over HTTPS. To obtain API access, **[contact our support team](https://support.rechargepayments.com/hc/en-us/requests/new)**.
 
 2. Add the following header to your API client. You can also make a request to our API by setting up your credentials and headers in [Postman](https://www.postman.com/product/api-client/).
 
