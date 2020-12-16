@@ -48,5 +48,7 @@ title: Update a metafield
 }
 ```
 
+<!-- info: tab -->
+
 ## Resources
 [Metafield Reference](https://developer.rechargepayments.com/?shell#metafields)

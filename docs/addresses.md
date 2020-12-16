@@ -4,7 +4,7 @@ Addresses represent one of the many shipping locations a customer can have. An a
 <!-- theme: info -->
 > Customers can subscribe to the same product multiple times as long as they use a different address.
 
-![addresses](docs/assets/images/addresses.png)
+![addresses](assets/images/addresses.png)
 
 ### Scopes
 |Scope|Description|
