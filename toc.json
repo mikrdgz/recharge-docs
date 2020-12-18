@@ -20,6 +20,11 @@
             "uri": "#"
         },
         {
+            "type": "item",
+            "title": "Setup Store Config",
+            "uri": "#"
+        },
+        {
             "type": "divider",
             "title": "Shopify Integration"
         },
