@@ -249,6 +249,11 @@
             "uri": "docs/customers.md"
         },
         {
+          "type": "item",
+          "title": "Checkouts",
+          "uri": "docs/checkouts.md"
+        },
+        {
             "type": "item",
             "title": "Orders",
             "uri": "docs/orders.md"
@@ -269,6 +274,11 @@
             "uri": "docs/addresses.md"
         },
         {
+          "type": "item",
+          "title": "Charges",
+          "uri": "docs/charges.md"
+      },
+        {
             "type":"item",
             "title":"Webhooks Overview",
             "uri": "docs/webhooks-overview.md"
@@ -276,7 +286,7 @@
         },
         {
             "type": "item",
-            "title": "API Reference",
+            "title": "Full API Reference",
             "uri": "https://developer.rechargepayments.com/"
         },
         {
