@@ -25,12 +25,5 @@ General Configuration of Recharge must occur before subscriptions will show on y
 
 The Common/Expected FE Functionality section will tell you what features should be enabled on your store to make subscriptions work as expected. However, you can customize as you see fit by leveraging the approaches in this documentation.
 
-This document contains 3 sections:
-* **Customization Stories** - Examples of common customizations and the steps to accomplish the story
-* **ReCharge CSS Classes** - used for unsupported themes (BigCommerce buttons/objects/data attributes/classes have different selectors than Cornerstone) with standard flows
-  * **Recharge CSS Class Groups** - Sections of BigCommerce that have ReCharge classes applied for subscription functionality  
-  * **Required Classes** - The classes that must exist in the BigCommerce page to leverage ReCharge functionality
-  * **CSS Attributes** - The attributes that can be added in the BigCommerce page to leverage ReCharge functionality
-* Javascript Interfaces - used for custom themes with custom flows when you want full control of subscription cart and checkout process (e.g. the checkout button should take the customer to a free sample selection flow instead of to checkout, a sample selection button could then take the user to the checkout)
 
 

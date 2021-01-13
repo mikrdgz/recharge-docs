@@ -11,5 +11,5 @@ ReCharge submits orders from our hosted checkout to BigCommerce via API. We've b
   * If shipping and billing addresses on ReCharge are different, two addresses are created within the BigCommerce customer's address book
 * **Marketing** - Customers that have opted in to marketing/receiving a store newsletter are marked as acceptingmarketing via a POST Customers/Subscribers call. On BigCommerce a Subscriber can exist without being attached to a customer account.
 * Refunds - Currently a BC store owner would need to refund via Recharge for refund, and would need to also refund on BC via BC store admin portal if they want to keep systems in sync
-  * Development in progress - Sync full, partial and line item refunds on RC to BC
-* Cancellations -  Recharge updates the order in BC with the Cancelled status. But, the order is still paid (a refund would be necessary to get money back). Generally used to prevent fulfillment.
+  * **Development in progress** - Sync full, partial and line item refunds on ReCharge to BigCommerce
+* **Cancellations** -  Recharge updates the order in BigCommerce with the Cancelled status. But, the order is still paid (a refund would be necessary to get money back). Generally used to prevent fulfillment.
