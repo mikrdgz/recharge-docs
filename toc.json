@@ -97,18 +97,34 @@
             "title": "BigCommerce Integration"
         },
         {
+            "type": "item",
+            "title": "BigCommerce Overview",
+            "uri": "docs/nested-item.md"
+        },
+        {
+          "type": "item",
+          "title": "BigCommerce Expected Functionality",
+          "uri": "docs/nested-item.md"
+      },
+        {
             "type": "group",
             "title": "Storefront",
             "items": [
               {
                 "type": "item",
-                "title": "Fast",
-                "uri": "docs/nested-item.md"
+                "title": "Fast Frontend",
+                "uri": "docs/bigcommerce-storefront.md"
               },
               {
-                "type": "item",
-                "title": "Custom",
-                "uri": "docs/nested-item.md"
+                "type": "group",
+                "title": "Custom Frontend",
+                "items":[
+                  {
+                    "type": "item",
+                    "title": "Customization Stories",
+                    "uri": "docs/bc-customization-stories.md"
+                  }
+                ]
               }
             ]
           },
@@ -119,12 +135,7 @@
               {
                 "type": "item",
                 "title": "Fast",
-                "uri": "docs/nested-item.md"
-              },
-              {
-                "type": "item",
-                "title": "Custom",
-                "uri": "docs/nested-item.md"
+                "uri": "docs/bigcommerce-checkout.md"
               }
             ]
           },
