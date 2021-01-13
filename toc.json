@@ -99,12 +99,12 @@
         {
             "type": "item",
             "title": "BigCommerce Overview",
-            "uri": "docs/nested-item.md"
+            "uri": "docs/bigcommerce-overview.md"
         },
         {
           "type": "item",
           "title": "BigCommerce Expected Functionality",
-          "uri": "docs/nested-item.md"
+          "uri": "docs/bigcommerce-functionality.md"
       },
         {
             "type": "group",
@@ -121,8 +121,18 @@
                 "items":[
                   {
                     "type": "item",
-                    "title": "Customization Stories",
+                    "title": "Customization Recipes",
                     "uri": "docs/bc-customization-stories.md"
+                  },
+                  {
+                    "type": "item",
+                    "title": "ReCharge Classes",
+                    "uri": "docs/bigcommerce-classes.md"
+                  },
+                  {
+                    "type": "item",
+                    "title": "JavaScript Interfaces",
+                    "uri": "docs/bigcommerce-classes.md"
                   }
                 ]
               }
@@ -141,17 +151,12 @@
           },
           {
             "type": "group",
-            "title": "Submit an Order",
+            "title": "Orders",
             "items": [
               {
                 "type": "item",
-                "title": "Fast",
-                "uri": "docs/nested-item.md"
-              },
-              {
-                "type": "item",
-                "title": "Custom",
-                "uri": "docs/nested-item.md"
+                "title": "Sending an Order to BigCommerce",
+                "uri": "docs/bigcommerce-orders.md"
               }
             ]
           },
@@ -161,13 +166,8 @@
             "items": [
               {
                 "type": "item",
-                "title": "Fast",
-                "uri": "docs/nested-item.md"
-              },
-              {
-                "type": "item",
-                "title": "Custom",
-                "uri": "docs/nested-item.md"
+                "title": "Fast Customer Portal",
+                "uri": "docs/bigcommerce-cust-portal.md"
               }
             ]
           },

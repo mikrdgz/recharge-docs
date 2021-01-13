@@ -1,19 +1,16 @@
-INTERNAL USE - LINK TO ADDITIONAL DETAILS: https://coda.io/d/BC-CP-Beta-Specs_dJ9H7N3YKnm/Customer-Portal_suUes#_luWqU
+# Customer Portal
 
-image.png
-                                                               image.png
+You'll find the ReCharge Customer Portal linked from a customer's account page. A link titled **Manage Subscriptions** will appear on the Account page if the customer has subscription orders. This will work out of the box. We recommend waiting to build a customized Customer Portal until your subscription program grows in size.
 
-https://lh5.googleusercontent.com/CpQMQ2NW0LTxQfml_IrVbI307hKOlfyxeDK20zJDJuARyBy2QeYIYUb7GcmWbOyH-YA3JkJEVEPjMQ3uT6OizgeFy3-wp6ECjWfjkDRajNVcRSoD3sLmE3mILh3hl9mfj1EkI87oLOE
+![cust portal](assets/images/cust-portal.png)
 
-The Recharge hosted Customer Portal is linked to from the BigCommerce customer’s Account page. A link named Manage Subscriptions will appear on the Account page if the customer has subscription orders. This will work out of the box.  
+## Portal Functionality
 
-To get the out of the box Recharge functionality working, Purchase/Install Recharge for Big Commerce and perform General Configuration of Recharge.
+Customers can take the following actions via the ReCharge portal:
+* **Subscriptions** - view, cancel, reactivate, edit (change next charge date, change product quantity, change delivery schedule, update payment info, edit addresses)
+* **Delivery Schedule** - view, skip, edit (change next charge date, change product quantity, change delivery schedule, update payment info, edit addresses)
+* **Purchase History** - view
+* **Customer Addresses** - update address
+* **Billing Info** - view, edit
 
-Additional information is included below highlight how this works:
-* Recharge Customer Portal functionality
-  * Subscriptions - view, cancel, reactivate, edit (change next charge date, change product quantity, change delivery schedule, update payment info, edit addresses)
-    * Currently not supporting Add Product, Swap
-  * Delivery Schedule - view, skip, edit (change next charge date, change product quantity, change delivery schedule, update payment info, edit addresses)
-  * Purchase History - view
-  * Addresses - update address
-  * Billing Info - view, edit
+> The BigCommerce ReCharge Customer Portal doesn't support the ability to add or swap products at this time.

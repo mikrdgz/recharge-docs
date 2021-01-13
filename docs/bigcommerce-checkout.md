@@ -1,13 +1,11 @@
-# BigCommerce Checkout
-The ReCharge hosted checkout is the fastest to launch and is proven at scale with high conversion. Our checkout can be customized to match your storefront and we integrate with many major tax, shipping, and other providers. Waiting to consider building a customized Customer Portal until after the subscription program grows in size is the recommended path.
+# BigCommerce Fast Checkout
+The ReCharge hosted checkout is the fastest to launch and is proven at scale with high conversion. You can customize it to match your storefront. ReCharge also integrates with many major tax, shipping, and other providers. 
 
-The out of the box functionality is to use the Recharge hosted checkout. The Recharge storefront javascript performs a redirect which takes users from the BigCommerce storefront to a Recharge checkout web page.
+Out-of-the-box a BigCommerce store will direct customers to the Recharge hosted checkout page. The Recharge storefront JavaScript performs this redirect.
 
-To get the out of the box Recharge functionality working, Purchase/Install Recharge for Big Commerce and perform General Configuration of Recharge.
-
-Additional information is included below highlight how this works:
-* Checkout button - our javascript files will replace the checkout button to pass the cart over to Recharge
-  * Subscription information on items is added to cart via our storefront javascript (additional information here Common/Expected FE Functionality)
-* Checkout flow - Carts will go to Recharge checkout where both subscription and one time only product carts can be processed. The Recharge hosted checkout is the fastest to launch and is proven at scale with high conversion. Our checkout can be customized to match your storefront and we integrate with many major tax, shipping, and other providers.
-* Checkout handoff - pricing, quantity, sku, product weights, custom tax codes, subscription frequency are all handed off to Recharge checkout page
-* Cart clearing - after a checkout is completed on Recharge, the cart is removed on BigCommerce so that when the customer returns to the BigCommerce storefront the cart contents are not still present
+## Functionality 
+* **Checkout button** - Our JavaScript will replace the BigCommerce checkout button to pass cart data to Recharge.
+* **Cart** - Our storefront JavaScript adds product subscription information to cart. We use BigCommerce's [Cart API](https://developer.bigcommerce.com/api-reference/storefront/carts) to retrieve cart data, then call local storage for ReCharge subscription info and combine the two before `POST`ing combined data to ReCharge.
+* **Checkout flow** - Carts will go to ReCharge checkout where we process both subscription and one-time only carts. Our checkout can be customized to match your storefront and we integrate with many major tax, shipping, and other providers.
+* **Checkout handoff** - Product information such as pricing, quantity, sku, product weights, custom tax codes, subscription frequency are all handed off to ReCharge checkout page
+* **Cart clearing** - after a checkout is completed on ReCharge, the cart is removed on BigCommerce so the customer returns to the BigCommerce storefront with an empty cart.
