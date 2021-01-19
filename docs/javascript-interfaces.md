@@ -7,8 +7,14 @@ ReCharge exposes several JavaScript interfaces on the frontend to provide progra
 
 BigCommerce stores with the ReCharge Subscriptions application installed have interfaces available with no additional setup needed.
 
-## Available Interfaces
+## Headless Install
+For custom storefronts that do not load BigCommerce scripts (which are loaded on the default storefront), you need to load two files to make the ReCharge JavaScript interfaces available. Most headless customers will want to disable the core application, as only the interfaces are wanted. The BigCommerce [store_hash](https://developer.bigcommerce.com/api-docs/getting-started/authentication/rest-api-authentication#obtaining-store-api-credentials#obtaining-store-api-credentials) is needed and should replace the {STORE HASH HERE} text in the code below.
+```html
+<script src='https://platform-data-prod.rechargeadapter.com/{STORE HASH HERE}/{STORE HASH HERE}-data.js'></script>
+<script src='app-data-prod.rechargeadapter.com/static/js/bc.js'></script>
+```
 
+## Available Interfaces
 
 ## Example Use
 To use an interface ensure that the application script has loaded, then access any method described in the Interface specifications (see Available Interfaces above).

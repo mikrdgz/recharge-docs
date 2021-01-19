@@ -121,7 +121,7 @@
                 "items":[
                   {
                     "type": "item",
-                    "title": "Customization Recipes",
+                    "title": "Frontend Customization Recipes",
                     "uri": "docs/bc-customization-stories.md"
                   },
                   {
