@@ -157,16 +157,6 @@
               }
             ]
           },
-          {
-            "type": "item",
-            "title": "Customers",
-            "uri": "docs/customers.md"
-        },
-        {
-          "type": "item",
-          "title": "Customers",
-          "uri": "docs/customers.md"
-      },
         {
             "type": "divider",
             "title": "ReCharge Admin API"
