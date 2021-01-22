@@ -20,92 +20,24 @@
             "uri": "#"
         },
         {
+          "type": "item",
+          "title": "Expected Frontend Functionality",
+          "uri": "docs/bigcommerce-functionality.md"
+      },
+        {
             "type": "item",
             "title": "Setup Store Config",
             "uri": "#"
         },
         {
             "type": "divider",
-            "title": "Shopify Integration"
-        },
-        {
-            "type": "group",
-            "title": "Storefront",
-            "items": [
-              {
-                "type": "item",
-                "title": "Fast",
-                "uri": "docs/nested-item.md"
-              },
-              {
-                "type": "item",
-                "title": "Custom",
-                "uri": "docs/nested-item.md"
-              }
-            ]
-          },
-          {
-            "type": "group",
-            "title": "Checkout",
-            "items": [
-              {
-                "type": "item",
-                "title": "Fast",
-                "uri": "docs/nested-item.md"
-              },
-              {
-                "type": "item",
-                "title": "Custom",
-                "uri": "docs/nested-item.md"
-              }
-            ]
-          },
-          {
-            "type": "group",
-            "title": "Submit an Order",
-            "items": [
-              {
-                "type": "item",
-                "title": "Fast",
-                "uri": "docs/nested-item.md"
-              },
-              {
-                "type": "item",
-                "title": "Custom",
-                "uri": "docs/nested-item.md"
-              }
-            ]
-          },
-          {
-            "type": "group",
-            "title": "Customer Portal",
-            "items": [
-              {
-                "type": "item",
-                "title": "Fast",
-                "uri": "docs/nested-item.md"
-              },
-              {
-                "type": "item",
-                "title": "Custom",
-                "uri": "docs/nested-item.md"
-              }
-            ]
-          },
-        {
-            "type": "divider",
             "title": "BigCommerce Integration"
         },
         {
             "type": "item",
-            "title": "BigCommerce Overview",
+            "title": "Overview",
             "uri": "docs/bigcommerce-overview.md"
         },
-        {
-          "type": "item",
-          "title": "BigCommerce Expected Functionality",
-          "uri": "docs/bigcommerce-functionality.md"
-      },
         {
             "type": "group",
             "title": "Storefront",
@@ -117,17 +49,17 @@
               },
               {
                 "type": "group",
-                "title": "Developing a BigCommerce Storefront",
+                "title": "Developing a Custom Storefront",
                 "items":[
-                  {
-                    "type": "item",
-                    "title": "Frontend Customization Recipes",
-                    "uri": "docs/bc-customization-stories.md"
-                  },
                   {
                     "type": "item",
                     "title": "ReCharge Classes",
                     "uri": "docs/bigcommerce-classes.md"
+                  },
+                  {
+                    "type": "item",
+                    "title": "Frontend CSS & JavaScript Recipes",
+                    "uri": "docs/bc-customization-stories.md"
                   },
                   {
                     "type": "item",
@@ -139,41 +71,23 @@
             ]
           },
           {
-            "type": "group",
-            "title": "BigCommerce Checkout",
-            "items": [
-              {
-                "type": "item",
-                "title": "Setup BigCommerce Checkout",
-                "uri": "docs/bigcommerce-checkout.md"
-              }
-            ]
+            "type": "item",
+            "title": "Sending an Order to BigCommerce",
+            "uri": "docs/bigcommerce-orders.md"
           },
           {
-            "type": "group",
-            "title": "Orders",
-            "items": [
-              {
-                "type": "item",
-                "title": "Sending an Order to BigCommerce",
-                "uri": "docs/bigcommerce-orders.md"
-              }
-            ]
+            "type": "item",
+            "title": "Setup BigCommerce Checkout",
+            "uri": "docs/bigcommerce-checkout.md"
           },
           {
-            "type": "group",
-            "title": "Customer Portal",
-            "items": [
-              {
-                "type": "item",
-                "title": "Quick Customer Portal Setup",
-                "uri": "docs/bigcommerce-cust-portal.md"
-              }
-            ]
+            "type": "item",
+            "title": "Quick Customer Portal Setup",
+            "uri": "docs/bigcommerce-cust-portal.md"
           },
         {
             "type": "divider",
-            "title": "Headless ReCharge Integration"
+            "title": "Headless Integration"
         },
         {
           "type": "item",
@@ -182,11 +96,11 @@
         },
         {
           "type": "group",
-          "title": "Custom Headless Storefront",
+          "title": "Custom Storefront",
           "items": [
             {
               "type": "item",
-              "title": "Install CDN",
+              "title": "Getting Started",
               "uri": "docs/nested-item.md"
             },
             {
@@ -223,6 +137,11 @@
             ]
           },
           {
+            "type": "item",
+            "title": "Managing Product Catalog",
+            "uri": "docs/customers.md"
+        },
+          {
             "type": "group",
             "title": "Headless Order Management",
             "items": [
@@ -238,7 +157,16 @@
               }
             ]
           },
-          
+          {
+            "type": "item",
+            "title": "Customers",
+            "uri": "docs/customers.md"
+        },
+        {
+          "type": "item",
+          "title": "Customers",
+          "uri": "docs/customers.md"
+      },
         {
             "type": "divider",
             "title": "ReCharge Admin API"
