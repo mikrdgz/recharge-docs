@@ -2,10 +2,10 @@
 
 The Recharge integration with BigCommerce works out-of-the-box and only requires you to configure general store settings. However, you have the option to to customize the Storefront, Checkout and Customer Portal if desired. With Recharge's architecture you can start with an out-of-the-box solution (most start here), move to a highly flexible hybrid solution (many move here), and if desired build a custom solution (some merchants require this).
 
-### Recommendation
+## How to Build
 For BigCommerce implementations we recommend using the out-of-the-box solution to get started. If you have an unsupported storefront theme you'll need to customize the integration. 
 
-### Use Cases
+## Use Cases
 
 There are several key reasons to customize a ReCharge/BigCommerce implementation:
 

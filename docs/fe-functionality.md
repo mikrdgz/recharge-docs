@@ -1,6 +1,6 @@
 # Expected Front End Functionality
 
-This reference displays what the ReCharge subscription widget should look like on a BigCommerce store. The ReCharge integration injects CSS elements onto various pages within a site.
+This reference displays what the ReCharge subscription widget should look like on a frontend. The ReCharge integration injects CSS elements onto various pages within a site.
 
 ## Frontend functionality
 |Group|Frontend page/element|Image|Data displayed|Functionality|

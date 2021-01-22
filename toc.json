@@ -112,12 +112,12 @@
             "items": [
               {
                 "type": "item",
-                "title": "Fast Frontend",
+                "title": "Fast Storefront Setup",
                 "uri": "docs/bigcommerce-storefront.md"
               },
               {
                 "type": "group",
-                "title": "Custom Frontend",
+                "title": "Developing a BigCommerce Storefront",
                 "items":[
                   {
                     "type": "item",
@@ -140,11 +140,11 @@
           },
           {
             "type": "group",
-            "title": "Checkout",
+            "title": "BigCommerce Checkout",
             "items": [
               {
                 "type": "item",
-                "title": "Fast",
+                "title": "Setup BigCommerce Checkout",
                 "uri": "docs/bigcommerce-checkout.md"
               }
             ]
@@ -166,82 +166,82 @@
             "items": [
               {
                 "type": "item",
-                "title": "Fast Customer Portal",
+                "title": "Quick Customer Portal Setup",
                 "uri": "docs/bigcommerce-cust-portal.md"
               }
             ]
           },
         {
             "type": "divider",
-            "title": "Headless Integration"
+            "title": "Headless ReCharge Integration"
         },
         {
+          "type": "item",
+          "title": "Overview",
+          "uri": "docs/headless-overview.md"
+        },
+        {
+          "type": "group",
+          "title": "Custom Headless Storefront",
+          "items": [
+            {
+              "type": "item",
+              "title": "Install CDN",
+              "uri": "docs/nested-item.md"
+            },
+            {
+              "type": "item",
+              "title": "Handling Product JSON",
+              "uri": "docs/nested-item.md"
+            },
+            {
+              "type": "item",
+              "title": "Frontend Settings",
+              "uri": "docs/nested-item.md"
+            }
+          ]
+        },
+          {
             "type": "group",
-            "title": "Storefront",
+            "title": "Headless Checkout",
             "items": [
               {
                 "type": "item",
-                "title": "Fast",
+                "title": "ReCharge Hosted Checkout",
                 "uri": "docs/nested-item.md"
               },
               {
                 "type": "item",
-                "title": "Custom",
+                "title": "Third-Party Checkout",
+                "uri": "docs/nested-item.md"
+              },
+              {
+                "type": "item",
+                "title": "Self-Hosted Checkout",
                 "uri": "docs/nested-item.md"
               }
             ]
           },
           {
             "type": "group",
-            "title": "Checkout",
+            "title": "Headless Order Management",
             "items": [
               {
                 "type": "item",
-                "title": "Fast",
+                "title": "Submitting a Headless Order",
                 "uri": "docs/nested-item.md"
               },
               {
                 "type": "item",
-                "title": "Custom",
+                "title": "Cancelling and Refunding Orders",
                 "uri": "docs/nested-item.md"
               }
             ]
           },
-          {
-            "type": "group",
-            "title": "Submit an Order",
-            "items": [
-              {
-                "type": "item",
-                "title": "Fast",
-                "uri": "docs/nested-item.md"
-              },
-              {
-                "type": "item",
-                "title": "Custom",
-                "uri": "docs/nested-item.md"
-              }
-            ]
-          },
-          {
-            "type": "group",
-            "title": "Customer Portal",
-            "items": [
-              {
-                "type": "item",
-                "title": "Fast",
-                "uri": "docs/nested-item.md"
-              },
-              {
-                "type": "item",
-                "title": "Custom",
-                "uri": "docs/nested-item.md"
-              }
-            ]
-          },
+          
         {
             "type": "divider",
-            "title": "ReCharge Admin"
+            "title": "ReCharge Admin API"
         },
         {
             "type": "item",

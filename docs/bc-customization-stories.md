@@ -1,6 +1,6 @@
 # Frontend Customization Recipes
 
-The ReCharge BigCommerce frontend is customizable to fit the needs of your customers. You can tailor the way ReCharge subscription elements look on BigCommerce storefronts using these recipes.
+The ReCharge BigCommerce integration is customizable to fit the needs of your customers. You can tailor the way ReCharge subscription elements look on BigCommerce storefronts. This article contains CSS and JavaScript "recipes" for creating certain functionality or adjust the ReCharge elements on your storefront.
 
 ## CSS Class Recipes
 
