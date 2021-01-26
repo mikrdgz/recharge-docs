@@ -7,13 +7,12 @@ A charge is a placeholder for an upcoming transaction and associated line items.
 Some use cases for the Charges resource include:
 - Processing a charge
 - Finding a charge by customer, status or subscription
-- 
 
 ### Scopes
 
 |Scope|Description|
 |-|-|
-|`read_orders`| Required to write to retrieve a charge.|
+|`read_orders`| Required to retrieve a charge.|
 |`write_orders`| Required to modify, skip and refund a charge.|
 |`write_payments`| This scope is only needed when refunding a charge.|
 |`process_charge`| Required to process charges in `queued` status.|

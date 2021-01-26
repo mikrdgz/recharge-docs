@@ -22,7 +22,7 @@
         {
           "type": "item",
           "title": "Expected Frontend Functionality",
-          "uri": "docs/bigcommerce-functionality.md"
+          "uri": "docs/fe-functionality.md"
       },
         {
             "type": "item",
@@ -96,7 +96,7 @@
         },
         {
           "type": "group",
-          "title": "Custom Storefront",
+          "title": "Custom Frontend",
           "items": [
             {
               "type": "item",
@@ -191,6 +191,11 @@
             "title": "Addresses",
             "uri": "docs/addresses.md"
         },
+        {
+          "type": "item",
+          "title": "Discounts",
+          "uri": "docs/discounts.md"
+      },
         {
           "type": "item",
           "title": "Charges",
