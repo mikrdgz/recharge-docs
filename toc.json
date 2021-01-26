@@ -20,11 +20,6 @@
             "uri": "#"
         },
         {
-          "type": "item",
-          "title": "Expected Frontend Functionality",
-          "uri": "docs/fe-functionality.md"
-      },
-        {
             "type": "item",
             "title": "Setup Store Config",
             "uri": "#"
@@ -33,11 +28,17 @@
             "type": "divider",
             "title": "BigCommerce Integration"
         },
+        
         {
             "type": "item",
             "title": "Overview",
             "uri": "docs/bigcommerce-overview.md"
         },
+        {
+          "type": "item",
+          "title": "Expected Frontend Functionality",
+          "uri": "docs/fe-functionality.md"
+      },
         {
             "type": "group",
             "title": "Storefront",
@@ -101,24 +102,19 @@
             {
               "type": "item",
               "title": "Getting Started",
-              "uri": "docs/nested-item.md"
-            },
-            {
-              "type": "item",
-              "title": "Handling Product JSON",
-              "uri": "docs/nested-item.md"
+              "uri": "docs/headless-storefront.md"
             },
             {
               "type": "item",
               "title": "Frontend Settings",
-              "uri": "docs/nested-item.md"
+              "uri": "docs/frontend-settings.md"
             }
           ]
         },
           {
             "type": "item",
-            "title": "Managing a Product Catalog",
-            "uri": "docs/customers.md"
+            "title": "Storing and Managing the Product Catalog",
+            "uri": "docs/handling-products.md"
         },
           {
             "type": "group",

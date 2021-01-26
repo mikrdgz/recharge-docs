@@ -1,8 +1,8 @@
 # Discounts
 ## What is a Discount?
-ReCharge has its own discount engine. Discounts can be applied to a checkout, or applied directly to an address. Discounts can also be configured for recurring or single use.
+ReCharge has its own discount engine to allow merchants to offer deals to customers. Discounts can be applied to a checkout, or applied directly to an address. Discounts can also be configured for recurring or single use on subscriptions.
 
-Some use cases for the Discounts endpoint include creating discounts, updating the end date for discounts and restricting discounts to first-time customers only.
+Some use cases for the Discounts resource include creating discounts, updating the end date for discounts and restricting discounts to first-time customers only.
 
 Discounts can be used in combination with [webhooks](webhooks-overview.md) to trigger a discount when customers meet certain order criteria. This method allows you to introduce more complex applications of discounts depending on your customers needs.
 

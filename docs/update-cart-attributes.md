@@ -7,6 +7,8 @@ You can update the properties in a customer's cart using the following example.
 type: tab
 title: cURL
 -->
+
+```cURL
 curl -i -H "X-Recharge-Access-Token: your_api_token" \
 -H "Content-Type: application/json" \
 -X PUT https://api.rechargeapps.com/addresses/8524391 \
@@ -16,6 +18,7 @@ curl -i -H "X-Recharge-Access-Token: your_api_token" \
     { "value": "HexaTrilion"}
   ]
 }'
+```
 
 ### Response
 
