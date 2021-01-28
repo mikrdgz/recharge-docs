@@ -28,131 +28,130 @@
             "type": "divider",
             "title": "BigCommerce Integration"
         },
-        
         {
             "type": "item",
             "title": "Overview",
             "uri": "docs/bigcommerce-overview.md"
         },
         {
-          "type": "item",
-          "title": "Expected Frontend Functionality",
-          "uri": "docs/fe-functionality.md"
-      },
+            "type": "item",
+            "title": "Expected Frontend Functionality",
+            "uri": "docs/fe-functionality.md"
+        },
         {
             "type": "group",
             "title": "Storefront",
             "items": [
-              {
-                "type": "item",
-                "title": "Fast Storefront Setup",
-                "uri": "docs/bigcommerce-storefront.md"
-              },
-              {
-                "type": "group",
-                "title": "Developing a Custom Storefront",
-                "items":[
-                  {
+                {
                     "type": "item",
-                    "title": "ReCharge Classes",
-                    "uri": "docs/bigcommerce-classes.md"
-                  },
-                  {
-                    "type": "item",
-                    "title": "Frontend CSS & JavaScript Recipes",
-                    "uri": "docs/bc-customization-stories.md"
-                  },
-                  {
-                    "type": "item",
-                    "title": "JavaScript Interfaces",
-                    "uri": "docs/javascript-interfaces.md"
-                  }
-                ]
-              }
+                    "title": "Fast Storefront Setup",
+                    "uri": "docs/bigcommerce-storefront.md"
+                },
+                {
+                    "type": "group",
+                    "title": "Developing a Custom Storefront",
+                    "items": [
+                        {
+                            "type": "item",
+                            "title": "ReCharge Classes",
+                            "uri": "docs/bigcommerce-classes.md"
+                        },
+                        {
+                            "type": "item",
+                            "title": "Frontend CSS & JavaScript Recipes",
+                            "uri": "docs/bc-customization-stories.md"
+                        },
+                        {
+                            "type": "item",
+                            "title": "JavaScript Interfaces",
+                            "uri": "docs/javascript-interfaces.md"
+                        }
+                    ]
+                }
             ]
-          },
-          {
+        },
+        {
             "type": "item",
             "title": "Sending an Order to BigCommerce",
             "uri": "docs/bigcommerce-orders.md"
-          },
-          {
+        },
+        {
             "type": "item",
             "title": "Setup BigCommerce Checkout",
             "uri": "docs/bigcommerce-checkout.md"
-          },
-          {
+        },
+        {
             "type": "item",
             "title": "Quick Customer Portal Setup",
             "uri": "docs/bigcommerce-cust-portal.md"
-          },
+        },
         {
             "type": "divider",
             "title": "Headless Integration"
         },
         {
-          "type": "item",
-          "title": "Overview",
-          "uri": "docs/headless-overview.md"
+            "type": "item",
+            "title": "Overview",
+            "uri": "docs/headless-overview.md"
         },
         {
-          "type": "group",
-          "title": "Custom Frontend",
-          "items": [
-            {
-              "type": "item",
-              "title": "Getting Started",
-              "uri": "docs/headless-storefront.md"
-            },
-            {
-              "type": "item",
-              "title": "Frontend Settings",
-              "uri": "docs/frontend-settings.md"
-            }
-          ]
+            "type": "group",
+            "title": "Custom Frontend",
+            "items": [
+                {
+                    "type": "item",
+                    "title": "Getting Started",
+                    "uri": "docs/headless-storefront.md"
+                },
+                {
+                    "type": "item",
+                    "title": "Frontend Settings",
+                    "uri": "docs/frontend-settings.md"
+                }
+            ]
         },
-          {
+        {
             "type": "item",
             "title": "Storing and Managing the Product Catalog",
             "uri": "docs/handling-products.md"
         },
-          {
+        {
             "type": "group",
             "title": "Order Management",
             "items": [
-              {
-                "type": "item",
-                "title": "Submitting an Order",
-                "uri": "docs/nested-item.md"
-              },
-              {
-                "type": "item",
-                "title": "Cancelling and Refunding Orders",
-                "uri": "docs/nested-item.md"
-              }
+                {
+                    "type": "item",
+                    "title": "Submitting an Order",
+                    "uri": "docs/nested-item.md"
+                },
+                {
+                    "type": "item",
+                    "title": "Cancelling and Refunding Orders",
+                    "uri": "docs/nested-item.md"
+                }
             ]
-          },
-          {
+        },
+        {
             "type": "group",
             "title": "Headless Checkout",
             "items": [
-              {
-                "type": "item",
-                "title": "ReCharge Hosted Checkout",
-                "uri": "docs/nested-item.md"
-              },
-              {
-                "type": "item",
-                "title": "Third-Party Checkout",
-                "uri": "docs/nested-item.md"
-              },
-              {
-                "type": "item",
-                "title": "Self-Hosted Checkout",
-                "uri": "docs/nested-item.md"
-              }
+                {
+                    "type": "item",
+                    "title": "ReCharge Hosted Checkout",
+                    "uri": "docs/nested-item.md"
+                },
+                {
+                    "type": "item",
+                    "title": "Third-Party Checkout",
+                    "uri": "docs/nested-item.md"
+                },
+                {
+                    "type": "item",
+                    "title": "Self-Hosted Checkout",
+                    "uri": "docs/nested-item.md"
+                }
             ]
-          },
+        },
         {
             "type": "divider",
             "title": "ReCharge Admin API"
@@ -163,9 +162,9 @@
             "uri": "docs/customers.md"
         },
         {
-          "type": "item",
-          "title": "Checkouts",
-          "uri": "docs/checkouts.md"
+            "type": "item",
+            "title": "Checkouts",
+            "uri": "docs/checkouts.md"
         },
         {
             "type": "item",
@@ -184,24 +183,33 @@
         },
         {
             "type": "item",
+            "title": "Onetimes",
+            "uri": "docs/onetimes.md"
+        },
+        {
+            "type": "item",
             "title": "Addresses",
             "uri": "docs/addresses.md"
         },
         {
-          "type": "item",
-          "title": "Discounts",
-          "uri": "docs/discounts.md"
-      },
+            "type": "item",
+            "title": "Discounts",
+            "uri": "docs/discounts.md"
+        },
         {
-          "type": "item",
-          "title": "Charges",
-          "uri": "docs/charges.md"
-      },
+            "type": "item",
+            "title": "Charges",
+            "uri": "docs/charges.md"
+        },
         {
-            "type":"item",
-            "title":"Webhooks Overview",
+            "type": "item",
+            "title": "Products",
+            "uri": "docs/products.md"
+        },
+        {
+            "type": "item",
+            "title": "Webhooks Overview",
             "uri": "docs/webhooks-overview.md"
-            
         },
         {
             "type": "item",

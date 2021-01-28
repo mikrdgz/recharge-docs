@@ -12,8 +12,12 @@ The product catalog is used throughout the ReCharge application to provide produ
 - Merchant Portal
 - Customer Portal
 
-## Maintaining Products
+## How to Maintain Products
 
-### Middleware
+You will need to store 
 
-### ReCharge
+### Using Middleware
+A middleware is developed to consume product related webhooks from the ecommerce platform, transform the data, and make the related API calls to ReCharge.
+
+### Maintaining Products in ReCharge 
+For custom ecommerce platforms, an internal function/service is developed to directly make the related API calls to ReCharge. 

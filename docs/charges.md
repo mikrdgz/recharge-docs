@@ -4,6 +4,8 @@
 
 A charge is a placeholder for an upcoming transaction and associated line items. The corresponding order (or orders in the case of prepaids) will be created once the charge is successful. After successful payment, the first order will be immediately submitted to the external platform if applicable (e.g. Shopify, BigCommerce).
 
+Charges contain the actual amount a customer is charged for a product.
+
 Some use cases for the Charges resource include:
 - Processing a charge
 - Finding a charge by customer, status or subscription

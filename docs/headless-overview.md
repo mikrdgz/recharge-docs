@@ -2,7 +2,9 @@
 
 ReCharge offers APIs and developer tools that let you bring subscription functionality to the site or ecommerce platform of your choice. Use our subscription engine anywhere and seamlessly incorporate ReCharge with the rest of your ecommerce tech stack.
 
-> Note that significant custom development is required to headlessly integrate ReCharge.
+<!-- theme: warning -->
+> ### Note
+> Significant custom development is required to headlessly integrate ReCharge.
 
 ## Recommmended best practices
 
@@ -15,4 +17,7 @@ We recommend using our hosted [Customer Portal](https://support.rechargepayments
 
 ### Checkout 
 We recommend handing off order data to the ReCharge [hosted checkout](https://support.rechargepayments.com/hc/en-us/articles/360008682954-Customizing-the-ReCharge-checkout) as it's proven at scale with high conversion. If you chose to create your own checkout flow, you're responsible for keeping customer information secure and [PCI Compliance](https://www.pcisecuritystandards.org/). Our checkout can be customized to match the look and feel of your storefront, and we integrate with many major tax and shipping apps. 
+
+## Setting up a store
+ReCharge doesn't have store management APIs, so you will need to setup all of your store's settings in the Control Panel.
 
