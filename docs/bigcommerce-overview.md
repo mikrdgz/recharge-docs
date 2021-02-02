@@ -13,6 +13,16 @@ There are several key reasons to customize a ReCharge/BigCommerce implementation
 * You want a custom user interface for ReCharge functionality on your product page.
 * Matching the look and feel of an existing branded user experience.
 
+## Prerequisites
+You should configure your ReCharge store settings before using the BigCommerce integration. See [Other Settings](https://support.rechargepayments.com/hc/en-us/categories/360000578494-Other-Settings) in the Help Center for details.
+
+Ensure that the following settings are configured in ReCharge:
+- Tax
+- Shipping
+- Payments
+- Products
+- Checkout Settings
+- Customer Portal Settings
 
 ## Installing the BigCommerce integration
 
@@ -45,14 +55,6 @@ There are several key reasons to customize a ReCharge/BigCommerce implementation
 3. You should configure [tax settings in BigCommerce](https://support.bigcommerce.com/s/article/Managing-Currencies#display-v-transactional) to reflect the prices you want to show on ReCharge subscription products.
 
 4. Install ReCharge CDN script provided in the [BigCommerce Script Manager](https://support.bigcommerce.com/s/article/Using-Script-Manager)
-
-4. Ensure that the following settings are also configured in ReCharge:
-- Tax
-- Shipping
-- Payments
-- Products
-- Checkout Settings
-- Customer Portal Settings
 
 
 ## Limitations

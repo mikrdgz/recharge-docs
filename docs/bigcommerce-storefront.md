@@ -16,14 +16,7 @@ If you do not see these ReCharge elements, you'll need to customize your storefr
 
 ## Custom Storefront
 
-This document will describe the technical components and steps that a BigCommerce developer would use to customize their BigCommerce storefront, or for themes not currently supported by ReCharge out of the box, while using ReCharge subscriptions.
-
-This document assumes that the Recharge adapter has already been installed 
-(Purchase/Install Recharge for BigCommerce) on the BigCommerce store. This means that Recharge has a corresponding Recharge store, has the BigCommerce store API keys, and has installed the JavaScript files on the BigCommerce store (in the script manager, the BC -Recharge Script and BC-Recharge Data Script).
-
-General Configuration of Recharge must occur before subscriptions will show on your storefront.
-
-The Common/Expected FE Functionality section will tell you what features should be enabled on your store to make subscriptions work as expected. However, you can customize as you see fit by leveraging the approaches in this documentation.
+See the *Developing a Custom Storefront* section for the technical components and steps to customize a BigCommerce storefront, or for themes not currently supported by ReCharge out of the box, while using ReCharge subscriptions.
 
 
 

@@ -227,18 +227,8 @@
         },
         {
             "type": "item",
-            "title": "Auto-expire subscriptions",
-            "uri": "docs/auto-expire.md"
-        },
-        {
-            "type": "item",
-            "title": "Update cart attributes",
-            "uri": "docs/update-cart-attributes.md"
-        },
-        {
-            "type": "item",
-            "title": "Add a one-time gift to an existing subscription",
-            "uri": "#"
+            "title": "Creating buy one, get one promotions with jQuery",
+            "uri": "docs/bogo.md"
         }
     ]
 }
