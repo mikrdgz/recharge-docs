@@ -1,11 +1,9 @@
 # BigCommerce Storefront
 
-The Recharge frontend works in the following key ways:
-* We leverage a CDN to serve content to your frontend that we then cache in browser local storage upon initial site load.
-* Recharge provides - JavaScript Interfaces
-* Additional details on storefront functionality is in the Common/Expected FE Functionality page
+The storefront is where you will see ReCharge components, such as the subscription widget. The frontend works in the following key ways:
+1. We leverage a CDN to serve content to your frontend that we then cache in browser local storage upon initial site load.
+2. We provide JavaScript Interfaces you can hook into for additionally custom functionality.
 
-## Fast
 This implementation is geared toward developers who want to quickly integrate ReCharge with BigCommerce and don't need any custom functionality.
 
 Once you've installed the BigCommerce/ReCharge integration, you'll see the ReCharge subscription widget right out of the box.

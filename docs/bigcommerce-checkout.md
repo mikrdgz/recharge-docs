@@ -1,7 +1,7 @@
-# BigCommerce Fast Checkout
+# BigCommerce heckout
 The ReCharge hosted checkout is the fastest to launch and is proven at scale with high conversion. You can customize it to match your storefront. ReCharge also integrates with many major tax, shipping, and other providers. 
 
-Out-of-the-box a BigCommerce store will direct customers to the Recharge hosted checkout page. The Recharge storefront JavaScript performs this redirect.
+Out-of-the-box a BigCommerce store will direct customers to the [Recharge hosted checkout](https://support.rechargepayments.com/hc/en-us/articles/360008682954-Customizing-the-ReCharge-checkout) page. The Recharge storefront JavaScript performs this redirect.
 
 ## Functionality 
 * **Checkout button** - Our JavaScript will replace the BigCommerce checkout button to pass cart data to Recharge.
