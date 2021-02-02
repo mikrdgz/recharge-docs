@@ -51,4 +51,4 @@ title: Update a metafield
 <!-- type: tab-end -->
 
 ## Resources
-[Metafield Reference](https://developer.rechargepayments.com/?shell#metafields)
+[Metafield reference](https://developer.rechargepayments.com/?shell#metafields)

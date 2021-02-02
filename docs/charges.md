@@ -44,3 +44,6 @@ title: Skip a charge
 {"subscription_id": "27363808"}
 ```
 <!-- type: tab-end -->
+
+## Resources
+[Charges reference](https://developer.rechargepayments.com/#charges)

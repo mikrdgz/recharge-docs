@@ -40,3 +40,6 @@ title: Create a onetime
 -->
 
 <!-- type: tab-end -->
+
+## Resources
+[Onetimes reference](https://developer.rechargepayments.com/#onetimes)

@@ -94,5 +94,5 @@ title: Update billing information
 >|`address_is_active`|Ignore, field not applicable|
 
 ## Resources
-[Customers](https://developer.rechargepayments.com/#customers)
+[Customers reference](https://developer.rechargepayments.com/#customers)
 

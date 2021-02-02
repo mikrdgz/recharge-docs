@@ -57,4 +57,4 @@ title: Override Shopify shipping lines
 <!-- type: tab-end -->
 
 ## Resources
-[Addresses Reference](https://developer.rechargepayments.com/#addresses)
+[Addresses reference](https://developer.rechargepayments.com/#addresses)

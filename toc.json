@@ -16,11 +16,6 @@
         },
         {
             "type": "item",
-            "title": "Best Practices",
-            "uri": "#"
-        },
-        {
-            "type": "item",
             "title": "Setup Store Config",
             "uri": "#"
         },
@@ -96,7 +91,7 @@
         },
         {
             "type": "group",
-            "title": "Custom Frontend",
+            "title": "Custom Storefront",
             "items": [
                 {
                     "type": "item",
@@ -116,6 +111,11 @@
             "uri": "docs/handling-products.md"
         },
         {
+          "type": "item",
+          "title": "Creating and Maintaing Products Tutorial",
+          "uri": "docs/products-tutorial.md"
+      },
+        {
             "type": "group",
             "title": "Order Management",
             "items": [
@@ -133,7 +133,7 @@
         },
         {
             "type": "group",
-            "title": "Headless Checkout",
+            "title": "Checkout",
             "items": [
                 {
                     "type": "item",
@@ -202,6 +202,11 @@
             "uri": "docs/charges.md"
         },
         {
+          "type": "item",
+          "title": "Checkouts",
+          "uri": "docs/checkouts.md"
+      },
+        {
             "type": "item",
             "title": "Products",
             "uri": "docs/products.md"
@@ -233,26 +238,6 @@
         {
             "type": "item",
             "title": "Add a one-time gift to an existing subscription",
-            "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "Add a subscription gift to an existing subscription",
-            "uri": "docs/one-time-gift.md"
-        },
-        {
-            "type": "item",
-            "title": "Purchase a gift subscription for someone",
-            "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "How to set up a quarterly subscription on fixed X day of Y month",
-            "uri": "#"
-        },
-        {
-            "type": "item",
-            "title": "Building an SMS integration",
             "uri": "#"
         }
     ]

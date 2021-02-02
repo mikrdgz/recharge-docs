@@ -103,3 +103,6 @@ title: Apply a discount to an address
 ```
 
 <!-- type: tab-end -->
+
+## Resources
+[Discounts reference](https://developer.rechargepayments.com/#discounts)
