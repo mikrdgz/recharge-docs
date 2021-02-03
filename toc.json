@@ -21,67 +21,6 @@
         },
         {
             "type": "divider",
-            "title": "BigCommerce Integration"
-        },
-        {
-            "type": "item",
-            "title": "Overview",
-            "uri": "docs/bigcommerce-overview.md"
-        },
-        {
-            "type": "item",
-            "title": "Expected Frontend Functionality",
-            "uri": "docs/fe-functionality.md"
-        },
-        {
-            "type": "group",
-            "title": "Storefront",
-            "items": [
-                {
-                    "type": "item",
-                    "title": "Storefront Setup",
-                    "uri": "docs/bigcommerce-storefront.md"
-                },
-                {
-                    "type": "group",
-                    "title": "Developing a Custom Storefront",
-                    "items": [
-                        {
-                            "type": "item",
-                            "title": "ReCharge Classes",
-                            "uri": "docs/bigcommerce-classes.md"
-                        },
-                        {
-                            "type": "item",
-                            "title": "Frontend CSS & JavaScript Recipes",
-                            "uri": "docs/bc-customization-stories.md"
-                        },
-                        {
-                            "type": "item",
-                            "title": "JavaScript Interfaces",
-                            "uri": "docs/javascript-interfaces.md"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "title": "Sending an Order to BigCommerce",
-            "uri": "docs/bigcommerce-orders.md"
-        },
-        {
-            "type": "item",
-            "title": "Setup BigCommerce Checkout",
-            "uri": "docs/bigcommerce-checkout.md"
-        },
-        {
-            "type": "item",
-            "title": "Quick Customer Portal Setup",
-            "uri": "docs/bigcommerce-cust-portal.md"
-        },
-        {
-            "type": "divider",
             "title": "Headless Integration"
         },
         {
@@ -89,6 +28,11 @@
             "title": "Overview",
             "uri": "docs/headless-overview.md"
         },
+        {
+          "type": "item",
+          "title": "Expected Frontend Functionality",
+          "uri": "docs/fe-functionality.md"
+      },
         {
             "type": "group",
             "title": "Custom Storefront",

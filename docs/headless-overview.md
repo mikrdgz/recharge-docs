@@ -2,7 +2,6 @@
 
 ReCharge offers APIs and developer tools that let you bring subscription functionality to the site or ecommerce platform of your choice. Use our subscription engine anywhere and seamlessly incorporate ReCharge with the rest of your ecommerce tech stack. This article covers the components necessary to create a headless ReCharge integration.
 
-<!-- theme: warning -->
 > ### Note
 > Significant custom development is required to headlessly integrate ReCharge.
 
