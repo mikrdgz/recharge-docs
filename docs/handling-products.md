@@ -27,7 +27,8 @@ In a headless environment, you are responsible for syncing your external product
 ## Maintaing products in ReCharge with a cron job
 For custom ecommerce platforms or instances when your platform does not support webhooks, you will build an internal service  directly polls ReCharge's Product API for changes. This could be a cron job that runs at an interval to pull product data from your platform and sync it to ReCharge. The ideal outcome is your platform's product catalog is asynchronously synced with ReCharge's in near real-time. 
 
-<-- theme: warning -->
+<!--!theme: warning -->
+
 > ### Syncing products infrequently could cause unwanted results
 > Customers may purchase or subscribe to outdated products if you do not push changes from your platform to ReCharge in a timely manner.
 
