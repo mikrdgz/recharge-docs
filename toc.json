@@ -21,7 +21,7 @@
         },
         {
             "type": "divider",
-            "title": "Headless Integration"
+            "title": "API Integration"
         },
         {
             "type": "item",
@@ -30,38 +30,17 @@
         },
         {
           "type": "item",
-          "title": "Expected Frontend Functionality",
-          "uri": "docs/fe-functionality.md"
+          "title": "Managing Products",
+          "uri": "docs/handling-products.md"
       },
+      {
+        "type": "item",
+        "title": "Storefront",
+        "uri": "docs/headless-storefront.md"
+    },
         {
             "type": "group",
-            "title": "Custom Storefront",
-            "items": [
-                {
-                    "type": "item",
-                    "title": "Getting Started",
-                    "uri": "docs/headless-storefront.md"
-                },
-                {
-                    "type": "item",
-                    "title": "Frontend Settings",
-                    "uri": "docs/frontend-settings.md"
-                }
-            ]
-        },
-        {
-            "type": "item",
-            "title": "Storing and Managing the Product Catalog",
-            "uri": "docs/handling-products.md"
-        },
-        {
-          "type": "item",
-          "title": "Creating and Maintaing Products Tutorial",
-          "uri": "docs/products-tutorial.md"
-      },
-        {
-            "type": "group",
-            "title": "Order Management",
+            "title": "Backend Order Processing",
             "items": [
                 {
                     "type": "item",
@@ -79,10 +58,15 @@
             "type": "group",
             "title": "Checkout",
             "items": [
+              {
+                "type": "item",
+                "title": "Overview",
+                "uri": "docs/api-checkout-overview.md"
+            },
                 {
                     "type": "item",
                     "title": "ReCharge Hosted Checkout",
-                    "uri": "docs/nested-item.md"
+                    "uri": "docs/recharge-hosted-checkout.md"
                 },
                 {
                     "type": "item",
@@ -96,6 +80,15 @@
                 }
             ]
         },
+        {
+          "type": "divider",
+          "title": "Resources"
+      },
+        {
+          "type": "item",
+          "title": "Expected Frontend Functionality",
+          "uri": "docs/fe-functionality.md"
+      },
         {
             "type": "divider",
             "title": "ReCharge Admin API"

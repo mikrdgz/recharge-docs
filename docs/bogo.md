@@ -13,18 +13,19 @@ In this example, we show how to automatically pass a BOGO item to the cart along
 > Note
 > This feature is only available for Shopify merchants who installed ReCharge before November 2nd, 2020, and are using the [ReCharge Checkout](https://support.rechargepayments.com/hc/en-us/articles/360008681834-Identifying-which-checkout-is-in-use).
 
-## Before you start
+## Add BOGO item to cart during checkout 
+
+The main focus of this section is how to leverage jQuery/AJAX to add a hidden free item to the cart in tandem with a subscription product.
+
+### Before you start
 - This implementation will require advanced Javascript, HTML, Shopify Liquid, and API knowledge. This is not part of ReCharge's turnkey solution. If you are a merchant looking to implement a BOGO offering on your ReCharge store, we recommend reaching out to a [ReCharge Expert](https://recharge.partnerpage.io/). 
 - This is an example implementation using the Shopify Minimal Theme. While many themes are similar, the exact file names and location of code blocks could differ depending on your chosen theme.
 - This guide details the most basic implementation of BOGO approaches. Any further customizations will require the advice of a [ReCharge Expert](https://recharge.partnerpage.io/). 
 
-## Add BOGO item to cart during checkout 
-The main focus of this section is how to leverage jQuery/AJAX to add a hidden free item to the cart in tandem with a subscription product.
-
-## Step 1 - Set up products in Shopify
+## Step 1: Set up products in Shopify
 Create all of the products involved in the BOGO use case. This means both the items available for subscription purchase, as well as the qualifying BOGO items to be added in tandem with them. 
 
-## Step 2  - Edit the product template file
+## Step 2: Edit the product template file
 Adding to the built in “add-to-cart-button” code is necessary to ensure that the items are both added at once. With that, we are going to open the “sections/product-template.liquid” file, and add the following AJAX code block that will layer on top of the existing add to cart button functionality. It is important to locate the add to cart button code and paste the logic directly below it. For the purposes of this demonstration, you can find it on line 218 in the above listed file.
 
 ### Create a function to handle automatically adding the BOGO item to the cart 
@@ -66,12 +67,12 @@ $(document ).ready(function (){
 ## Add BOGO item during subscription renewal
 The main focus of this section is how to leverage ReCharge’s API to add a hidden free item to the second order in a recurring schedule. We implemented our functions via Node as a Google Cloud Platform serverless function. You will need to adapt the code to fit whatever platform or service you are using to consume the webhooks we create. We also use the request-promise package to handle the calls to the ReCharge API.
 
-## Step 1 - Create a ReCharge API token
+## Step 1: Create a ReCharge API token
 Once ReCharge is installed, you will want to create an API token to be used when you make calls to the ReCharge API. Please refer to API Token Creation on how to create your ReCharge token.
 
 When generating the token, you will need to set permissions to specific ReCharge objects. We recommend setting all of the permissions to Read/Write access aside from "Store Information" which can currently only be set to Read access 
 
-## Step 2 - Create a function to handle adding the one-time item to the second overall future charge
+## Step 2: Create a function to handle adding the one-time item to the second overall future charge
 
 This function will trigger off of a ReCharge webhook response, and you will pass the address ID and next charge date as arguments. The reason these need to be passed is that in order to add a one-time item to a future order, the request call requires the address ID and next charge date of the existing subscription. 
 
@@ -81,7 +82,7 @@ The last part of this function is to dictate the body. Because we are using java
 
 In the body object, we are going to be passing the next charge date variable we defined right after opening up the function, the product title, price, quantity, Shopify Variant ID of the BOGO item, and properties if applicable. 
 
-### Step 3 - Create the main function to execute the code and register the webhook as received
+### Step 3: Create the main function to execute the code and register the webhook as received
 
 This function defines the required parameters and initiates the creation of the one-time item by calling its respective function as well. We’ll call this one "main" since it will drive the logic for the end goal of adding the item to a future charge. 
 

@@ -1,4 +1,4 @@
-# Headless Storefront
+# Storefront
 
 You may choose to integrate headlessly with ReCharge to use our subscription features on an unsupported ecommerce platform. Using this method you can use our subscription enginer paired with a custom site or open-source ecommerce. This article will cover high-level considerations for integrating ReCharge subscriptions with your own custom frontend. 
 
