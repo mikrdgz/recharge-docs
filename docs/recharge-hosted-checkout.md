@@ -4,7 +4,7 @@ Create a checkout experience for customers directing to ReCharge’s hosted chec
 
 There are two main steps to process checkouts via the ReCharge-Hosted Checkout:
 
-![hosted checkout](docs/assets/hosted-checkout.png)
+![hosted checkout](assets/images/hosted-checkout.png)
 
 ## 1. Sending a Checkout to ReCharge
 When a user clicks the checkout button on the storefront (or any action that triggers the checkout process is taken), you will call your middleware to build the checkout object.  You will `POST` your cart contents (or custom-built line items) to the ReCharge checkout endpoint, along with any miscellaneous properties (ex. utm parameters, discount code, etc.).
