@@ -76,7 +76,7 @@
                 {
                     "type": "item",
                     "title": "Self-Hosted Checkout",
-                    "uri": "docs/nested-item.md"
+                    "uri": "docs/self-hosted-checkout.md"
                 }
             ]
         },
