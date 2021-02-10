@@ -1,6 +1,5 @@
 # ReCharge Hosted Checkout
-
-Create a checkout experience for customers directing to ReCharge’s hosted checkout by using Recharge’s [Checkout API](https://developer.rechargepayments.com/#checkouts). This is the recommended checkout method when using ReCharge's API integration. The ReCharge-hosted Checkout presents an interface allowing you to process checkouts that will sync into the ReCharge system.  
+This article will walk you through using ReCharge's hosted checkout with your API integration. Create a checkout experience for customers directing to ReCharge’s hosted checkout by using Recharge’s [Checkout API](https://developer.rechargepayments.com/#checkouts). This is the recommended checkout method when using ReCharge's API integration. The ReCharge-hosted Checkout presents an interface allowing you to process checkouts that will sync into the ReCharge system.  
 
 There are two main steps to process checkouts via the ReCharge-Hosted Checkout:
 

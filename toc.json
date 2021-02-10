@@ -15,11 +15,6 @@
             "uri": "docs/authentication.md"
         },
         {
-            "type": "item",
-            "title": "Setup Store Config",
-            "uri": "#"
-        },
-        {
             "type": "divider",
             "title": "API Integration"
         },
@@ -45,12 +40,12 @@
                 {
                     "type": "item",
                     "title": "Submitting an Order",
-                    "uri": "docs/nested-item.md"
+                    "uri": "docs/submitting-order-api.md"
                 },
                 {
                     "type": "item",
-                    "title": "Cancelling and Refunding Orders",
-                    "uri": "docs/nested-item.md"
+                    "title": "Refunding and Cancelling Orders",
+                    "uri": "docs/cancelling-refunding-order-api.md"
                 }
             ]
         },
@@ -71,7 +66,7 @@
                 {
                     "type": "item",
                     "title": "Third-Party Checkout",
-                    "uri": "docs/nested-item.md"
+                    "uri": "docs/third-party-checkout.md"
                 },
                 {
                     "type": "item",
@@ -80,6 +75,11 @@
                 }
             ]
         },
+        {
+          "type": "item",
+          "title": "Customer Portal",
+          "uri": "docs/customer-portal.md"
+      },
         {
           "type": "divider",
           "title": "Resources"

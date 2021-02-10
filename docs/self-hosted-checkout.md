@@ -1,9 +1,8 @@
 # Self-hosted Checkout
-Use the self-hosted checkout approach to own the checkout process end-to-end. This solution builds on the [ReCharge hosted checkout](docs/recharge-hosted-checkout.md) flow. Instead of creating a checkout then redirecting the customer to ReCharge, you will redirect the customer to your own checkout pages and capture data about the checkout to send to ReCharge for processing.
-
+This article will walk you through building a self-hosted checkout with ReCharge. Use the self-hosted checkout approach to own the checkout process end-to-end while still using our Checkout APIs. This solution builds on the [ReCharge hosted checkout](docs/recharge-hosted-checkout.md) flow. Instead of creating a checkout then redirecting the customer to ReCharge, you will redirect the customer to your own checkout pages and capture data about the checkout to send to ReCharge for processing. 
 ![self-hosted checkout](assets/images/self-hosted-checkout.png)
 
-## 1. Creating a Checkout
+## 1. Create a Checkout
 Like the ReCharge hosted checkout approach, you will build a checkout object using the items in an order:
 
 ### Example POST to /checkouts
