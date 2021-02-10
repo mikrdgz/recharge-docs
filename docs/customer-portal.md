@@ -25,7 +25,7 @@ When the customer arrives on their account page, use the [Customer API](https://
 
 `GET` to `customers/:id`
 
-You will receive a unique customer **hash** in the response
+You will receive a unique customer **hash** in the response.
 
 ### 2. Redirect to ReCharge portal
 Once you have the customer hash, you can assemble a URL that redirects the customer to the ReCharge portal. Simple embed the link in a *Manage Subscriptions* menu item or similar.
