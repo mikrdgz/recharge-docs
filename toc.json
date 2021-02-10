@@ -80,6 +80,11 @@
           "title": "Customer Portal",
           "uri": "docs/customer-portal.md"
       },
+      {
+        "type": "item",
+        "title": "Merchant Portal",
+        "uri": "docs/merchant-portal.md"
+    },
         {
           "type": "divider",
           "title": "Resources"
