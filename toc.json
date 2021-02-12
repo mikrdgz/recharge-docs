@@ -33,14 +33,50 @@
         "title": "Storefront",
         "uri": "docs/headless-storefront.md"
     },
+    {
+        "type": "group",
+        "title": "Checkout",
+        "items": [
+          {
+            "type": "item",
+            "title": "Overview",
+            "uri": "docs/api-checkout-overview.md"
+        },
+            {
+                "type": "item",
+                "title": "ReCharge Hosted Checkout",
+                "uri": "docs/recharge-hosted-checkout.md"
+            },
+            {
+                "type": "item",
+                "title": "Self-Hosted Checkout",
+                "uri": "docs/self-hosted-checkout.md"
+            },
+            {
+                "type": "item",
+                "title": "Third-Party Checkout",
+                "uri": "docs/third-party-checkout.md"
+            }
+        ]
+    },
         {
             "type": "group",
-            "title": "Backend Order Processing",
+            "title": "Backend Data Processing",
             "items": [
+                {
+                    "type": "item",
+                    "title": "Overview",
+                    "uri": "docs/backend-overview.md"
+                },
                 {
                     "type": "item",
                     "title": "Submitting an Order",
                     "uri": "docs/submitting-order-api.md"
+                },
+                {
+                    "type": "item",
+                    "title": "Clearing a Cart",
+                    "uri": "docs/clearing-cart.md"
                 },
                 {
                     "type": "item",
@@ -50,49 +86,9 @@
             ]
         },
         {
-            "type": "group",
-            "title": "Checkout",
-            "items": [
-              {
-                "type": "item",
-                "title": "Overview",
-                "uri": "docs/api-checkout-overview.md"
-            },
-                {
-                    "type": "item",
-                    "title": "ReCharge Hosted Checkout",
-                    "uri": "docs/recharge-hosted-checkout.md"
-                },
-                {
-                    "type": "item",
-                    "title": "Third-Party Checkout",
-                    "uri": "docs/third-party-checkout.md"
-                },
-                {
-                    "type": "item",
-                    "title": "Self-Hosted Checkout",
-                    "uri": "docs/self-hosted-checkout.md"
-                }
-            ]
-        },
-        {
           "type": "item",
-          "title": "Customer Portal",
+          "title": "Portals",
           "uri": "docs/customer-portal.md"
-      },
-      {
-        "type": "item",
-        "title": "Merchant Portal",
-        "uri": "docs/merchant-portal.md"
-    },
-        {
-          "type": "divider",
-          "title": "Resources"
-      },
-        {
-          "type": "item",
-          "title": "Expected Storefront Functionality",
-          "uri": "docs/fe-functionality.md"
       },
         {
             "type": "divider",

@@ -1,5 +1,5 @@
 # Self-hosted Checkout
-This article will walk you through building a self-hosted checkout with ReCharge. Use the self-hosted checkout approach to own the checkout process end-to-end while still using our Checkout APIs. This solution builds on the [ReCharge hosted checkout](docs/recharge-hosted-checkout.md) flow. Instead of creating a checkout then redirecting the customer to ReCharge, you will redirect the customer to your own checkout pages and capture data about the checkout to send to ReCharge for processing. 
+This article will walk you through building a self-hosted checkout with ReCharge. Use the self-hosted checkout approach to own the checkout process end-to-end while still using our Checkouts API. This solution builds on the [ReCharge hosted checkout](recharge-hosted-checkout.md) flow. Instead of creating a checkout then redirecting the customer to ReCharge, you will redirect the customer to your own checkout pages and capture data about the checkout to send to ReCharge for processing. 
 ![self-hosted checkout](assets/images/self-hosted-checkout.png)
 
 ## 1. Create a Checkout
@@ -71,7 +71,11 @@ Using the data from the `GET` to `shipping_rates`, populate the options onto you
 
 ## 5. Process Checkout
 
-Finally, send a `POST` to the Checkouts API `charge` ednpoint to finalize processing checkout. It is best practice to present the customer with a page that allows them to review their final order before placing it. Once you've processed the checkout, redirect the customer to an order confirmation page.
+At this point, you should present the customer with form fields to input their payment information. **You're responsible for securely passing this information to a payment processor while adhering to [PCI compliance](https://www.pcisecuritystandards.org/) guidelines.**
+
+You should receive a customer/payment token in the response from the payment processor.
+
+The final step is sending a `POST` to the ReCharge Checkouts API `charge` endpoint with this payment token to finalize processing checkout.  It is best practice to present the customer with a page that allows them to review their final order before placing it. Once you've processed the checkout, redirect the customer to an order confirmation page.
 
 ### Example `POST` to checkouts/:id/charge
 

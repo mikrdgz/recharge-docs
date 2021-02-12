@@ -1,12 +1,6 @@
-# Submitting Orders 
-This article will provide guidance for listening to ReCharge Webhooks and taking action server-side to process orders. You should prioritize keeping your external system in sync with ReCharge. This guide will cover common use cases for doing this.
+# Processing Orders
 
-### Webhooks
-You can read more about our webhooks service in the [Webhooks Overview](webhooks-overview.md) or see [Webhooks reference](https://developer.rechargepayments.com/#webhooks) to view all available hooks.
-
-## Processing Orders
-
-After ReCharge processes a subcription or checkout our system will fire several webhooks you can use to sync the order to your external system.
+After ReCharge processes a subcription or checkout, our system will fire several webhooks you can use to sync the order to your external system.
 
 ![processing orders](assets/images/checkout-recurring.png)
 
@@ -18,7 +12,7 @@ Your system should listen for the following events:
 
 ### 1. Receive order/created webhook
 
-Once an order is processed, the `order/created` webhook will fire. If you receive a payload with `STATUS` == "SUCCESS" then this means the customer was successfully charged and a [Subscription](https://developer.rechargepayments.com/#the-subscription-object) record was created in the ReCharge system.
+Once an order is processed, the `order/created` webhook will fire. If you receive a payload with `STATUS` == "SUCCESS" then this means you've successfully charged the customer and an order was created in the ReCharge system.
 
 ### 2. Push order to external system
 After you complete step one and confirm the order, you can sync the order to your external system. The [webhook payload](https://developer.rechargepayments.com/#order) from the `order/created` event contains the data your application needs to construct an order for your external system, including billing, product and customer information.
@@ -46,7 +40,7 @@ Once you've pushed an order to your external system, you should [update the ReCh
 
  ## Processing prepaid orders
 
- The worflow for syncing prepaid subscription products to your external system differs from syncing regular subscription orders. With prepaids, customers are paying up front for multiple shipments.
+ The workflow for syncing prepaid subscription products to your external system differs from syncing regular subscription orders. With prepaids, customers are paying up front for multiple shipments.
 
  ![prepaid orders](assets/images/processing-prepaid.png)
 
@@ -77,15 +71,4 @@ Because this is a prepaid order, you must also update the [Charge record](https:
   "external_order_id": "<platform_order_id>"
 }
 ```
-
-## Clearing the cart
-For user experience purposes, we recommend clearing the customer's cart on the external ecommerce platform or site after you've processed their order with ReCharge. This avoids any confusion the customer would experience if they returned to the storefront to see the items they've just purchased are still in the cart.
-
-![clearing cart](assets/images/clearing-cart.png)
-
-### 1. Receive checkout/processed webhook
-Your application can listen for the `checkout/processed` webhook which confirms an order is successfully processed. 
-
-### 2. Clear storefront cart
-The `checkout/processed` payload contains the cart `id`. You can match this ID with the ecommerce platform's cart ID and make the API calls necessary to clear the cart.
 

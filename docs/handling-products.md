@@ -1,7 +1,7 @@
 # Managing Products
 
 ## Overview
-Products are the core of ReCharge subscriptions. All catalog data is stored within the [Products Resource](docs/products.md) and is where we you will find information about subscriptions offered for an item including its price, variants and images. ReCharge automatically syncs and maintains product catalog data between Shopify and BigCommerce via our direct integrations. This article provides guidance on maintaining product data between your own catalog and the ReCharge product catalog using your own API integration.
+Products are the core of ReCharge subscriptions. Our product catalog is where we store information about a product's price, weight, variant, SKU etc. The product[Products Resource endpoint](https://developer.rechargepayments.com/#products) is where we you will find information about subscriptions offered for an item including its price, variants and images. ReCharge automatically syncs and maintains product catalog data between Shopify and BigCommerce via our direct integrations. This article provides guidance on maintaining product data between your own catalog and the ReCharge product catalog using your own API integration.
 
 ## Uses
 
@@ -12,16 +12,23 @@ The product catalog is used throughout the ReCharge application to provide produ
 - Merchant Portal
 - Customer Portal
 
-## The "Product cache" versus "Products endpoint"
+## The "Product catalog" versus "Products endpoint"
 
-The ReCharge product cache is where data about each item in your external catalog is stored within our system. As a part of our turnkey integration, ReCharge pulls information such as price, variant, SKU etc. from either Shopify or BigCommerce into our product cache at the time a user creates a Product in the Control Panel.
+The ReCharge [product catalog](https://docs.google.com/document/d/1m2EV6Cq6ivEwr47NVGvxU4eVQWykqioJJlKKZ1WWOGo/edit) is where data about each item in your external catalog is stored within our system. With our direct integrations, ReCharge automatically pulls information such as price, variant, SKU etc. into our product catalog at the time a user creates a Product in the Merchant Portal.
 
-When using the API Integration, these are the steps you should take to manually create products via the API
+## Creating a Product
 
-1. Create the product in the ReCharge product cache using the `/catalog/` endpoint
-2. Then create the product the using our Products API, at which point defining subcription rules for that item.
+You can take the following steps to create products in ReCharge.
 
-### Creating a product in the product cache example
+### Creating products manually
+You can create products manually via the [Merchant Portal](https://support.rechargepayments.com/hc/en-us/articles/360008830873-Creating-subscription-rulesets), if preferred. Doing so will reduce the steps your app will need to take to begin offering ReCharge subscriptions via API.
+
+### Creating products via API
+
+1. Create the product in the ReCharge product catalog using the `/catalog/` endpoint.
+2. Then create the product using our Products API, at which point defining subcription rules for that item.
+
+### Creating a product in the product catalog example
 
 `POST` to `https://api.rechargeapps.com/catalog/products`
 
@@ -59,11 +66,8 @@ ReCharge stores all important information about a product's subscription options
 
 In a headless environment, you are responsible for syncing your external product catalog data into ReCharge. The best way to do this is by taking advantage of webhooks available on your existing platform and building a middlware controller that can receive webhooks payloads and then make appropriate changes to your catalog in ReCharge.
 
-### Creating products manually
-You can create products manually via the [Control Panel](https://support.rechargepayments.com/hc/en-us/articles/360008830873-Creating-subscription-rulesets), if preferred. Doing so will reduce the steps your app will need to take to begin offering ReCharge subscriptions via API.
-
-## Maintaing products in ReCharge with a cron job
-For custom ecommerce platforms or instances when your platform does not support webhooks, you will build an internal service  directly polls ReCharge's Product API for changes. This could be a cron job that runs at an interval to pull product data from your platform and sync it to ReCharge. The ideal outcome is your platform's product catalog is asynchronously synced with ReCharge's in near real-time. 
+## Maintaining products in ReCharge with a cron job
+For custom ecommerce platforms or instances when your platform does not support webhooks, you will build an internal service that syncs your data with ours. This could be a cron job that runs at an interval to pull product data from your platform and syncs it to ReCharge's product catalog. The ideal outcome is your platform's product catalog is asynchronously tied to ReCharge's in near real-time. 
 
 <!--!theme: warning -->
 
@@ -76,6 +80,7 @@ There are several tasks the ReCharge platform performs automatically when store 
 - Audit upcoming [Orders](https://developer.rechargepayments.com/#orders) when deleting [Onetime](https://developer.rechargepayments.com/#onetimes) products to ensure none of the orders contain that item. You can swap the item or remove it from orders.
 
 ## Resources
-[Products API Reference](https://developer.rechargepayments.com/#products)
+- [Products API reference](https://developer.rechargepayments.com/#products)
+- [ReCharge product catalog API examples](https://docs.google.com/document/d/1m2EV6Cq6ivEwr47NVGvxU4eVQWykqioJJlKKZ1WWOGo/edit)
 
 

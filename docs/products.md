@@ -6,7 +6,7 @@ Within the product resource, you can set the charge frequency for that item, the
 
 ## Subscriptions and products
 
-In the ReCharge Control Panel you can create rulesets that contain the subscription settings for products. Although you can create products by passing the `collection_id`, it is not recommended. Set the following fields when creating products via API, as rulesets will one day be deprecated. The following fields are required: `charge_interval_frequency`, `order_interval_frequency_options`, `order_interval_unit` and `storefront_purchase_options`.
+In the ReCharge Merchant Portal you can create rulesets that contain the subscription settings for products. Although you can create products by passing the `collection_id`, it is not recommended. Set the following fields when creating products via API, as rulesets will one day be deprecated. The following fields are required: `charge_interval_frequency`, `order_interval_frequency_options`, `order_interval_unit` and `storefront_purchase_options`.
 
 |Property|Required|Value|Note|
 |-|-|-|-|

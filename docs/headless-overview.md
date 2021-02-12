@@ -10,13 +10,10 @@ ReCharge has its own catalog of products. You will need to create products in Re
 
 ## Storefront
 
-The storefront is the frontend component of your site where you display product and subscription information to customers. Using ReCharge's CRUD APIs, you can build your own subscription widget and display information about subscription products as you wish.
-The storefront provides the capabilities to present your customers with subscription options on your website.  
-
-You can surface subscription information about your product catalog via the [Products API Resource](https://developer.rechargepayments.com/#products). Using this resource to pull data, you can build your own subscription widget and display information about subscriptions.
+The storefront is the frontend component of your site where you display product and subscription information to customers. Using ReCharge's frontend JavaScript SDK, you can build your own subscription widget and display information about subscription products as you wish.
 
 ## Checkout 
-The Checkout component of your ReCharge integration is how you will process orders and charge customers for their recurring subscriptions. ReCharge offers three approaches to checkout: 
+The Checkout component of your ReCharge integration is how you will process a customers initial recurring subscription purchase. ReCharge offers three approaches to checkout: 
 
 1. ReCharge hosts a fully [PCI-compliant](https://www.pcisecuritystandards.org/) checkout environment. 
 2. ReCharge's [Checkouts API](docs/checkouts.md) lets you create your own checkout environment for shoppers.
@@ -25,9 +22,11 @@ The Checkout component of your ReCharge integration is how you will process orde
 ## Backend Processing
 Once an order is processed via ReCharge, you will need to sync this data so that it is simultaneously reflected in your external system. We provide webhooks your application can listen for when an event occurs in the ReCharge system. See [Webhooks Overview](docs/webhooks-overview.md). Your application can then take action based on the data contained in our webhooks service payload.
 
-## Customer Portal
+## Merchant and Customer Portals
 
-The Customer Portal is where customers interact with their subscriptions and alter them at their convenience. They can edit subscriptions frequency, view purchase history, updating billing information and more.
+The ReCharge Merchant Portal lets you configure your ReCharge store's settings and manually edit customers, subcription products and more. For an overview of the Customer Portal, see our [Knowledge Base](https://support.rechargepayments.com/hc/en-us/articles/360008683274-Customer-portal-).
+
+The [Customer Portal](https://support.rechargepayments.com/hc/en-us/articles/360008683274-Customer-portal-) is where shoppers interact with their ReCharge subscriptions and alter them at their convenience. They can edit subscriptions frequency, view purchase history, updating billing information and more.
 
 ## Resources
 - [ReCharge Full API Reference](https://developer.rechargepayments.com/)
