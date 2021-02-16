@@ -19,7 +19,7 @@
             "title": "Integrations",
             "items": [
                 {
-                    "type": "Group",
+                    "type": "group",
                     "title": "API Integration",
                     "items": [
                         {
