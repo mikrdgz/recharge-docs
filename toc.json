@@ -15,7 +15,7 @@
             "uri": "docs/authentication.md"
         },
         {
-            "type": "Group",
+            "type": "group",
             "title": "Integrations",
             "items": [
                 {
@@ -28,41 +28,41 @@
                             "uri": "docs/headless-overview.md"
                         },
                         {
-                          "type": "item",
-                          "title": "Managing Products",
-                          "uri": "docs/handling-products.md"
-                      },
-                      {
-                        "type": "item",
-                        "title": "Storefront",
-                        "uri": "docs/headless-storefront.md"
-                    },
-                    {
-                        "type": "group",
-                        "title": "Checkout",
-                        "items": [
-                          {
                             "type": "item",
-                            "title": "Overview",
-                            "uri": "docs/api-checkout-overview.md"
+                            "title": "Managing Products",
+                            "uri": "docs/handling-products.md"
                         },
-                            {
-                                "type": "item",
-                                "title": "ReCharge Hosted Checkout",
-                                "uri": "docs/recharge-hosted-checkout.md"
-                            },
-                            {
-                                "type": "item",
-                                "title": "Self-Hosted Checkout",
-                                "uri": "docs/self-hosted-checkout.md"
-                            },
-                            {
-                                "type": "item",
-                                "title": "Third-Party Checkout",
-                                "uri": "docs/third-party-checkout.md"
-                            }
-                        ]
-                    },
+                        {
+                            "type": "item",
+                            "title": "Storefront",
+                            "uri": "docs/headless-storefront.md"
+                        },
+                        {
+                            "type": "group",
+                            "title": "Checkout",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "title": "Overview",
+                                    "uri": "docs/api-checkout-overview.md"
+                                },
+                                {
+                                    "type": "item",
+                                    "title": "ReCharge Hosted Checkout",
+                                    "uri": "docs/recharge-hosted-checkout.md"
+                                },
+                                {
+                                    "type": "item",
+                                    "title": "Self-Hosted Checkout",
+                                    "uri": "docs/self-hosted-checkout.md"
+                                },
+                                {
+                                    "type": "item",
+                                    "title": "Third-Party Checkout",
+                                    "uri": "docs/third-party-checkout.md"
+                                }
+                            ]
+                        },
                         {
                             "type": "group",
                             "title": "Backend Data Processing",
@@ -90,22 +90,21 @@
                             ]
                         },
                         {
-                          "type": "group",
-                          "title": "Portals",
-                          "items":[
-                            {
-                                "type": "item",
-                                "title": "Customer Portal",
-                                "uri": "docs/customer-portal.md"
-                            },
-                            {
-                                "type": "item",
-                                "title": "Merchant Portal",
-                                "uri": "docs/merchant-portal.md"
-                            }
-                          ]
-                      }
-                        
+                            "type": "group",
+                            "title": "Portals",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "title": "Customer Portal",
+                                    "uri": "docs/customer-portal.md"
+                                },
+                                {
+                                    "type": "item",
+                                    "title": "Merchant Portal",
+                                    "uri": "docs/merchant-portal.md"
+                                }
+                            ]
+                        }
                     ]
                 }
             ]
@@ -160,10 +159,10 @@
             "uri": "docs/charges.md"
         },
         {
-          "type": "item",
-          "title": "Checkouts",
-          "uri": "docs/checkouts.md"
-      },
+            "type": "item",
+            "title": "Checkouts",
+            "uri": "docs/checkouts.md"
+        },
         {
             "type": "item",
             "title": "Products",
