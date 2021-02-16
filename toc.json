@@ -15,81 +15,101 @@
             "uri": "docs/authentication.md"
         },
         {
-            "type": "divider",
-            "title": "API Integration"
-        },
-        {
-            "type": "item",
-            "title": "Overview",
-            "uri": "docs/headless-overview.md"
-        },
-        {
-          "type": "item",
-          "title": "Managing Products",
-          "uri": "docs/handling-products.md"
-      },
-      {
-        "type": "item",
-        "title": "Storefront",
-        "uri": "docs/headless-storefront.md"
-    },
-    {
-        "type": "group",
-        "title": "Checkout",
-        "items": [
-          {
-            "type": "item",
-            "title": "Overview",
-            "uri": "docs/api-checkout-overview.md"
-        },
-            {
-                "type": "item",
-                "title": "ReCharge Hosted Checkout",
-                "uri": "docs/recharge-hosted-checkout.md"
-            },
-            {
-                "type": "item",
-                "title": "Self-Hosted Checkout",
-                "uri": "docs/self-hosted-checkout.md"
-            },
-            {
-                "type": "item",
-                "title": "Third-Party Checkout",
-                "uri": "docs/third-party-checkout.md"
-            }
-        ]
-    },
-        {
-            "type": "group",
-            "title": "Backend Data Processing",
+            "type": "Group",
+            "title": "Integrations",
             "items": [
                 {
-                    "type": "item",
-                    "title": "Overview",
-                    "uri": "docs/backend-overview.md"
-                },
-                {
-                    "type": "item",
-                    "title": "Submitting an Order",
-                    "uri": "docs/submitting-order-api.md"
-                },
-                {
-                    "type": "item",
-                    "title": "Clearing a Cart",
-                    "uri": "docs/clearing-cart.md"
-                },
-                {
-                    "type": "item",
-                    "title": "Refunding and Cancelling Orders",
-                    "uri": "docs/cancelling-refunding-order-api.md"
+                    "type": "Group",
+                    "title": "API Integration",
+                    "items": [
+                        {
+                            "type": "item",
+                            "title": "Overview",
+                            "uri": "docs/headless-overview.md"
+                        },
+                        {
+                          "type": "item",
+                          "title": "Managing Products",
+                          "uri": "docs/handling-products.md"
+                      },
+                      {
+                        "type": "item",
+                        "title": "Storefront",
+                        "uri": "docs/headless-storefront.md"
+                    },
+                    {
+                        "type": "group",
+                        "title": "Checkout",
+                        "items": [
+                          {
+                            "type": "item",
+                            "title": "Overview",
+                            "uri": "docs/api-checkout-overview.md"
+                        },
+                            {
+                                "type": "item",
+                                "title": "ReCharge Hosted Checkout",
+                                "uri": "docs/recharge-hosted-checkout.md"
+                            },
+                            {
+                                "type": "item",
+                                "title": "Self-Hosted Checkout",
+                                "uri": "docs/self-hosted-checkout.md"
+                            },
+                            {
+                                "type": "item",
+                                "title": "Third-Party Checkout",
+                                "uri": "docs/third-party-checkout.md"
+                            }
+                        ]
+                    },
+                        {
+                            "type": "group",
+                            "title": "Backend Data Processing",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "title": "Overview",
+                                    "uri": "docs/backend-overview.md"
+                                },
+                                {
+                                    "type": "item",
+                                    "title": "Submitting an Order",
+                                    "uri": "docs/submitting-order-api.md"
+                                },
+                                {
+                                    "type": "item",
+                                    "title": "Clearing a Cart",
+                                    "uri": "docs/clearing-cart.md"
+                                },
+                                {
+                                    "type": "item",
+                                    "title": "Refunding and Cancelling Orders",
+                                    "uri": "docs/cancelling-refunding-order-api.md"
+                                }
+                            ]
+                        },
+                        {
+                          "type": "group",
+                          "title": "Portals",
+                          "items":[
+                            {
+                                "type": "item",
+                                "title": "Customer Portal",
+                                "uri": "docs/customer-portal.md"
+                            },
+                            {
+                                "type": "item",
+                                "title": "Merchant Portal",
+                                "uri": "docs/merchant-portal.md"
+                            }
+                          ]
+                      }
+                        
+                    ]
                 }
             ]
         },
-        {
-          "type": "item",
-          "title": "Portals",
-          "uri": "docs/customer-portal.md"
-      },
         {
             "type": "divider",
             "title": "ReCharge Admin API"
