@@ -15,9 +15,10 @@
             "uri": "docs/authentication.md"
         },
         {
-            "type": "group",
-            "title": "Integrations",
-            "items": [
+            "type": "divider",
+            "title": "Integrations"
+        },
+            
                 {
                     "type": "group",
                     "title": "API Integration",
@@ -106,9 +107,7 @@
                             ]
                         }
                     ]
-                }
-            ]
-        },
+                },
         {
             "type": "divider",
             "title": "ReCharge Admin API"
