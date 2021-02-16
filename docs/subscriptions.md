@@ -1,6 +1,6 @@
 # Subscriptions
 ## What is a Subscription?
-Subscriptions represent individual items a shopper receives on a recurring basis. Subscriptions are the core resources of the ReCharge API. A subscription record is comprised of a product added to an address. 
+Subscriptions represent individual items a customer receives on a recurring basis. Subscriptions are the core resources of the ReCharge API. A subscription record is comprised of a product added to an address. 
 
 You can update the start date that a customer will first charged and the frequency of each charge, the date of the month when an order is created, and the product's shipping frequency using the Subscriptions resource.
 
@@ -12,8 +12,8 @@ A customer can only have one subscription of the same product on one address. Cu
 ### Scopes
 |Scope|Description|
 |-|-|
-|`write_subscription`| Required to write to the subscriptions record.|
 |`read_subscriptions`| Required to read subscriptions record.|
+|`write_subscription`| Required to write to the subscriptions record.|
 
 ## Updating a Subscription
 If you want to change any of the following attributes, you must update all of them because they are tied to one another:

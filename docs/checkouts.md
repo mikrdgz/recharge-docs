@@ -5,8 +5,8 @@ You can use checkouts when creating subscription orders via headless stores. You
 ## Checkouts
 |Scope|Description|
 |-|-|
-|`read_checkouts`| Required to retrieve a charge.|
-|`write_checkouts`| Required to modify, skip and refund a charge.|
+|`read_checkouts`| Required to retrieve a checkout.|
+|`write_checkouts`| Required to modify, skip and refund a checkout.|
 
 
 ## Resources

@@ -108,49 +108,21 @@
                         }
                     ]
                 },
+                {
+                    "type": "group",
+                    "title": "BigCommerce Integration",
+                    "items": [
+
+                    ]
+                },
         {
             "type": "divider",
-            "title": "ReCharge Admin API"
-        },
-        {
-            "type": "item",
-            "title": "Customers",
-            "uri": "docs/customers.md"
-        },
-        {
-            "type": "item",
-            "title": "Checkouts",
-            "uri": "docs/checkouts.md"
-        },
-        {
-            "type": "item",
-            "title": "Orders",
-            "uri": "docs/orders.md"
-        },
-        {
-            "type": "item",
-            "title": "Subscriptions",
-            "uri": "docs/subscriptions.md"
-        },
-        {
-            "type": "item",
-            "title": "Metafields",
-            "uri": "docs/metafields.md"
-        },
-        {
-            "type": "item",
-            "title": "Onetimes",
-            "uri": "docs/onetimes.md"
+            "title": "API Reference"
         },
         {
             "type": "item",
             "title": "Addresses",
             "uri": "docs/addresses.md"
-        },
-        {
-            "type": "item",
-            "title": "Discounts",
-            "uri": "docs/discounts.md"
         },
         {
             "type": "item",
@@ -164,8 +136,38 @@
         },
         {
             "type": "item",
+            "title": "Customers",
+            "uri": "docs/customers.md"
+        },
+        {
+            "type": "item",
+            "title": "Discounts",
+            "uri": "docs/discounts.md"
+        },
+        {
+            "type": "item",
+            "title": "Metafields",
+            "uri": "docs/metafields.md"
+        },
+        {
+            "type": "item",
+            "title": "Onetimes",
+            "uri": "docs/onetimes.md"
+        },
+        {
+            "type": "item",
+            "title": "Orders",
+            "uri": "docs/orders.md"
+        },
+        {
+            "type": "item",
             "title": "Products",
             "uri": "docs/products.md"
+        },
+        {
+            "type": "item",
+            "title": "Subscriptions",
+            "uri": "docs/subscriptions.md"
         },
         {
             "type": "item",

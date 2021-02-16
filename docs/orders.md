@@ -3,15 +3,15 @@
 ## What is an Order?
 An order is created in ReCharge after a [Charge](https://developer.rechargepayments.com/#charges) is successfully processed. Orders contain information about the product ordered such as the SKU, the corresponding ReCharge subscription ID for the order, and IDs for a corresponding order if one is created on an external ecommerce platform. 
 
-The orders resource contains some information about the shopper. See [Addresses](https://developer.rechargepayments.com/#addresses) and [Customers](https://developer.rechargepayments.com/#customers) for detailed billing information.
+The orders resource contains some information about the customer. See [Addresses](https://developer.rechargepayments.com/#addresses) and [Customers](https://developer.rechargepayments.com/#customers) for detailed billing information.
 
 At this time, you can only update orders that are [prepaid queued order](https://support.rechargepayments.com/hc/en-us/articles/360008682674-Converting-a-subscription-from-monthly-to-prepaid-). These items have been paid ahead of time by the customer but are set to be delivered on a recurring cycle. An order contains all the same JSON data as the charge. In case of a prepaid order creation, the order will be queued for a particular date and submitted on that date to the external ecommerce platform. 
 
 ### Scopes
 |Scope|Description|
 |-|-|
-|`write_orders`| Required to write to the orders record.|
 |`read_orders`| Required to read orders record.|
+|`write_orders`| Required to write to the orders record.|
 
 
 ## Updating line items

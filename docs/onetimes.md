@@ -7,8 +7,8 @@ With Onetimes, customers can add on a single item to their purchase, in addition
 ### Scopes
 |Scope|Description|
 |-|-|
-|`write_subscriptions`|Required write to onetimes resource.|
 |`read_subscriptions`|Required to read the onetimes resource.|
+|`write_subscriptions`|Required write to onetimes resource.|
 
 
 <!--

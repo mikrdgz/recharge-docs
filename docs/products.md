@@ -4,6 +4,12 @@ Products are the items tied to a subcription in ReCharge. If using an external c
 
 Within the product resource, you can set the charge frequency for that item, the day in a month that to charge a customer, and more.
 
+### Scopes
+|Scope|Description|
+|-|-|
+|`read_products`| Required to read products record.|
+|`write_products`| Required to write to the products record.|
+
 ## Subscriptions and products
 
 In the ReCharge Merchant Portal you can create rulesets that contain the subscription settings for products. Although you can create products by passing the `collection_id`, it is not recommended. Set the following fields when creating products via API, as rulesets will one day be deprecated. The following fields are required: `charge_interval_frequency`, `order_interval_frequency_options`, `order_interval_unit` and `storefront_purchase_options`.

@@ -10,7 +10,6 @@ Here is an example workflow:
 
 If you offer a subscription where the product a customer receives should changeb every month, your application can listen for the `order/created` callback and when it receives it, make a REST API call to change the product belonging to that subscription.
 
-
 ## Handling the callback request
 
 Callback payloads are identical to ReCharge's REST API payloads. For example, the callback for the `subscription/created` webhook will be identical to the payload of a `GET` request to the `subscriptions/<subscription_id>` endpoint.

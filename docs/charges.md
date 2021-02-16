@@ -14,8 +14,8 @@ Some use cases for the Charges resource include:
 
 |Scope|Description|
 |-|-|
-|`read_orders`| Required to retrieve a charge.|
-|`write_orders`| Required to modify, skip and refund a charge.|
+|`read_charges`| Required to retrieve a charge.|
+|`write_charges`| Required to modify, skip and refund a charge.|
 |`write_payments`| This scope is only needed when refunding a charge.|
 |`process_charge`| Required to process charges in `queued` status.|
 

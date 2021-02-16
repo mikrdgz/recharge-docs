@@ -1,8 +1,14 @@
 # Customers
 
+|Scope|Description|
+|-|-|
+|`read_customer`| Required to read to the customer record.|
+|`write_customer`| Required to write to the customer record.|
+|`write_payments`| This scope is only needed when creating or updating customer payment token information.|
+
 ## What is a Customer?
 
-ReCharge creates a Customer record when a shopper checks out on an ecommerce storefront with a ReCharge subscription. 
+ReCharge creates a Customer record when a customer checks out on an ecommerce storefront with a ReCharge subscription. 
 
 The Customer object contains key information such as:
 
@@ -17,22 +23,13 @@ You may need to interact with the Customer object when, for example, a customer 
 <!-- theme: info -->
 > Creating a customer within ReCharge will not create a customer record within an external ecommerce platform at this time.
 
-### Scopes
-
-|Scope|Description|
-|-|-|
-|`write_customer`| Required to write to the customer record.|
-|`read_customer`| Required to read to the customer record.|
-|`write_payments`| This scope is only needed when creating or updating customer payment token information.|
-
-
 ## Customers and Addresses
 
 The Addresses endpoint is a child of the Customer object. Customers can have many addresses associated with their account. Addresses cannot be associated with multiple customers. 
 
 ![customers](assets/images/customer.png)
 
-The address nested under a customer resource is the customer's billing address associated with their payment method. It is not the address associated with delivery of a subscription. For the subscription delivery address, see [Subscriptions](#)
+The address nested under a customer resource is the customer's billing address associated with their payment method. It is not the address associated with delivery of a subscription. For the subscription delivery address, see [Subscriptions](subscriptions.md)
 
 ## Customer payment method
 

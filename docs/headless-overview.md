@@ -16,7 +16,7 @@ The storefront is the frontend component of your site where you display product 
 The Checkout component of your ReCharge integration is how you will process a customers initial recurring subscription purchase. ReCharge offers three approaches to checkout: 
 
 1. ReCharge hosts a fully [PCI-compliant](https://www.pcisecuritystandards.org/) checkout environment. 
-2. ReCharge's [Checkouts API](docs/checkouts.md) lets you create your own checkout environment for shoppers.
+2. ReCharge's [Checkouts API](docs/checkouts.md) lets you create your own checkout environment for customers.
 3. You can own the checkout process and sync subscription information back to ReCharge after you've processed a checkout via an external system.
 
 ## Backend Processing
@@ -26,7 +26,7 @@ Once an order is processed via ReCharge, you will need to sync this data so that
 
 The ReCharge Merchant Portal lets you configure your ReCharge store's settings and manually edit customers, subcription products and more. For an overview of the Customer Portal, see our [Knowledge Base](https://support.rechargepayments.com/hc/en-us/articles/360008683274-Customer-portal-).
 
-The [Customer Portal](https://support.rechargepayments.com/hc/en-us/articles/360008683274-Customer-portal-) is where shoppers interact with their ReCharge subscriptions and alter them at their convenience. They can edit subscriptions frequency, view purchase history, updating billing information and more.
+The [Customer Portal](https://support.rechargepayments.com/hc/en-us/articles/360008683274-Customer-portal-) is where customers interact with their ReCharge subscriptions and alter them at their convenience. They can edit subscriptions frequency, view purchase history, updating billing information and more.
 
 ## Resources
 - [ReCharge Full API Reference](https://developer.rechargepayments.com/)

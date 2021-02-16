@@ -18,9 +18,9 @@ ReCharge discounts offer several rules. These can be used to narrow the conditio
 ### Scopes
 |Scope|Description|
 |-|-|
-|`read_discounts`| Required to retrieve a charge.|
+|`read_discounts`| Required to retrieve a discount.|
 |`write_discounts`| Required to write to the discounts record.|
-|`write_addresses`|Only required to apply discounts to an address.|
+|`write_addresses`| Only required to apply discounts to an address.|
 |`write_orders`| Only required to apply discounts to an address.|
 
 ![discounts diagram](assets/images/discounts-flow.png)
