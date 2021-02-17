@@ -29,11 +29,11 @@ The Addresses endpoint is a child of the Customer object. Customers can have man
 
 ![customers](assets/images/customer.png)
 
-The address nested under a customer resource is the customer's billing address associated with their payment method. It is not the address associated with delivery of a subscription. For the subscription delivery address, see [Subscriptions](subscriptions.md)
+The address nested under a customer resource is the customer's billing address associated with their payment method. It is not the address associated with delivery of a subscription. For the subscription shipping address, see [Subscriptions](subscriptions.md)
 
 ## Customer payment method
 
-Update the customer object to add or update a customer's payment method. ReCharge doesn't accept payment information directly. You should send a tokenized customer representation from the payment processor to add or update the payment method. The Stripe [customer token](https://stripe.com/docs/api/customers/object#customer_object-sources-data-tokenization_method) should begin with the prefix `cus`, not `tok`.
+Update the customer object to add or update a customer's payment method. ReCharge doesn't accept payment information directly. You should send a tokenized customer representation from the payment processor to add or update the payment method. When using Stripe as your payment processor, the [customer token](https://stripe.com/docs/api/customers/object#customer_object-sources-data-tokenization_method) should begin with the prefix `cus`, not `tok`.
 
 ## Use cases
 

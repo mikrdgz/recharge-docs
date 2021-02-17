@@ -1,4 +1,12 @@
 # Discounts
+
+|Scope|Description|
+|-|-|
+|`read_discounts`| Required to retrieve a discount.|
+|`write_discounts`| Required to write to the discounts record.|
+|`write_addresses`| Only required to apply discounts to an address.|
+|`write_orders`| Only required to apply discounts to an address.|
+
 ## What is a Discount?
 ReCharge has its own discount engine to allow merchants to offer deals to customers. Discounts can be applied to a checkout, or applied directly to an address. Discounts can also be configured for recurring or single use on subscriptions.
 
@@ -13,15 +21,6 @@ ReCharge discounts offer several rules. These can be used to narrow the conditio
 - Single use
 - Recurring use for a set amount of uses
 - Start and end dates for subscription discounts
-
-
-### Scopes
-|Scope|Description|
-|-|-|
-|`read_discounts`| Required to retrieve a discount.|
-|`write_discounts`| Required to write to the discounts record.|
-|`write_addresses`| Only required to apply discounts to an address.|
-|`write_orders`| Only required to apply discounts to an address.|
 
 ![discounts diagram](assets/images/discounts-flow.png)
 

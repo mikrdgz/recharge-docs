@@ -1,4 +1,10 @@
 # Subscriptions
+
+|Scope|Description|
+|-|-|
+|`read_subscriptions`| Required to read subscriptions record.|
+|`write_subscription`| Required to write to the subscriptions record.|
+
 ## What is a Subscription?
 Subscriptions represent individual items a customer receives on a recurring basis. Subscriptions are the core resources of the ReCharge API. A subscription record is comprised of a product added to an address. 
 
@@ -8,12 +14,6 @@ A customer can only have one subscription of the same product on one address. Cu
 
 <!-- theme: info -->
 > In the past products needed to be attached to a ruleset to be added to subscriptions, but we are in the process of deprecating [rulesets](https://support.rechargepayments.com/hc/en-us/articles/360008830873-Creating-subscription-rulesets).
-
-### Scopes
-|Scope|Description|
-|-|-|
-|`read_subscriptions`| Required to read subscriptions record.|
-|`write_subscription`| Required to write to the subscriptions record.|
 
 ## Updating a Subscription
 If you want to change any of the following attributes, you must update all of them because they are tied to one another:

@@ -1,14 +1,14 @@
 # Products
-## What is a Product?
-Products are the items tied to a subcription in ReCharge. If using an external catalog such as Shopify or BigCommerce, the Product resource contains information about the item in remote catalog.
 
-Within the product resource, you can set the charge frequency for that item, the day in a month that to charge a customer, and more.
-
-### Scopes
 |Scope|Description|
 |-|-|
 |`read_products`| Required to read products record.|
 |`write_products`| Required to write to the products record.|
+
+## What is a Product?
+Products are the items tied to a subcription in ReCharge. If using an external catalog such as Shopify or BigCommerce, the Product resource contains information about the item in remote catalog.
+
+Within the product resource, you can set the charge frequency for that item, the day in a month that to charge a customer, and more.
 
 ## Subscriptions and products
 
@@ -50,5 +50,5 @@ title: Updating a Product
 
 
 ## Resources
-[Products Reference](https://developer.rechargepayments.com/#products)
+[Products reference](https://developer.rechargepayments.com/#products)
 

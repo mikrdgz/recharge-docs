@@ -1,4 +1,9 @@
 # Metafields
+
+|Scope|Description|
+|-|-|
+|write_\*RESOURCE\*|\*RESOURCE\* should be the API resource for which you're creating the metafield.|
+
 ## What are Metafields?
 Metafields allow you to add additional attributes to certain ReCharge API resources. Use them to store extra infromation. A use case could be integrating ReCharge with a connector app to pass store data to an ERP. The following resources support Metafields:
 
@@ -14,11 +19,6 @@ There is a limit of 50 metafields per `owner_id`.
 When making a `GET` to retrieve a list of `/metafields/`, you must specify the `owner_resource` as a query string. For example:
 
 `https://api.rechargeapps.com/metafields?owner_resource=customer`
-
-### Scopes
-|Scope|Description|
-|-|-|
-|write_\*RESOURCE\*|\*RESOURCE\* should be the API resource for which you're creating the metafield.|
 
 ## Use cases
 
