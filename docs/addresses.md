@@ -6,7 +6,7 @@
 |`write_addresses`| Required to write to the address record.|
 
 ## What are Addresses?
-Addresses represent one of the many shipping locations a customer can have. An address is created when a customer purchases a subscription. [Subscriptions](https://developer.rechargepayments.com/#subscriptions) are tied to a given address. Each customer can have multiple address objects in a many-to-one relationship. Some use cases for this endpoint are to update customer billing information or overriding a Shopify shipping rate.
+Addresses represent one of the many shipping locations a customer can have. An address is created when a customer purchases a subscription. [Subscriptions](https://developer.rechargepayments.com/#subscriptions) are tied to a given address. Each customer can have multiple address objects in a many-to-one relationship. You can override shipping rates using this endpoint.
 
 ![addresses](assets/images/addresses.png "addresses")
 

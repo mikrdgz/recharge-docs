@@ -5,7 +5,7 @@
 |write_\*RESOURCE\*|\*RESOURCE\* should be the API resource for which you're creating the metafield.|
 
 ## What are Metafields?
-Metafields allow you to add additional attributes to certain ReCharge API resources. Use them to store extra infromation. A use case could be integrating ReCharge with a connector app to pass store data to an ERP. The following resources support Metafields:
+Metafields allow you to add additional attributes to certain ReCharge API resources. Use them to store extra information. A use case could be integrating ReCharge with a connector app to pass store data to an ERP. The following resources support Metafields:
 
 - Stores
 - Customers
@@ -51,4 +51,4 @@ title: Update a metafield
 <!-- type: tab-end -->
 
 ## Resources
-[Metafield reference](https://developer.rechargepayments.com/?shell#metafields)
+[Metafield reference](https://developer.rechargepayments.com/#metafields)

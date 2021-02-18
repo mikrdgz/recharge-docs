@@ -173,20 +173,6 @@
             "type": "item",
             "title": "Webhooks Overview",
             "uri": "docs/webhooks-overview.md"
-        },
-        {
-            "type": "item",
-            "title": "Full API Reference",
-            "uri": "https://developer.rechargepayments.com/"
-        },
-        {
-            "type": "divider",
-            "title": "Use Cases and Guides"
-        },
-        {
-            "type": "item",
-            "title": "Creating buy one, get one promotions",
-            "uri": "docs/bogo.md"
         }
     ]
 }

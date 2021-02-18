@@ -28,7 +28,7 @@ Once you've pushed an order to your external system, you should [update the ReCh
 > **External order IDs**
 > Note that on some platforms, only one ID may exist for both properties.
 
-### Example update ReCharge order
+**Example update ReCharge order**
  `PUT` to `/orders/:recharge_order_id`
 
  ```json
@@ -62,7 +62,7 @@ See step three above for updating the ReCharge order record.
 
 Because this is a prepaid order, you must also update the [Charge record](https://developer.rechargepayments.com/#charges) with the `external_order_id`.
 
-### Example update charge
+**Example update charge**
 
 `PUT` to `/charges/:recharge_charge_id`
 

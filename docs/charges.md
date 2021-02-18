@@ -9,7 +9,7 @@
 
 ## What is a Charge?
 
-A charge is a placeholder for an upcoming transaction and associated line items. The corresponding order (or orders in the case of prepaids) will be created once the charge is successful. After successful payment, the first order will be immediately submitted to the external platform if applicable (e.g. Shopify, BigCommerce).
+A charge is a placeholder for an upcoming transaction and associated line items. The corresponding order record (or orders in the case of prepaids) will be created once the charge is successful. After successful payment, the first order will be immediately submitted to the external platform if using one of our direct integrations. 
 
 Charges contain the actual amount a customer is charged for a product.
 

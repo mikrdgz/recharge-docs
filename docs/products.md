@@ -6,13 +6,18 @@
 |`write_products`| Required to write to the products record.|
 
 ## What is a Product?
-Products are the items tied to a subcription in ReCharge. If using an external catalog such as Shopify or BigCommerce, the Product resource contains information about the item in remote catalog.
+Products are the items tied to a subcription in ReCharge. If using an external catalog such as Shopify or BigCommerce, the Product resource contains information about the item in the remote catalog.
 
-Within the product resource, you can set the charge frequency for that item, the day in a month that to charge a customer, and more.
+Within the product resource, you can set the charge frequency for that item, the day in a month to charge a customer, and more.
+
+## "Product catalog" versus Products endpoint
+The ReCharge product catalog is where data about each item in your external catalog is stored within our system. With our direct integrations, ReCharge automatically pulls information such as price, variant, SKU etc. into our product catalog at the time a user creates a Product in the Merchant Portal. If you're using our API integration, you need to manually add your inventory to the product catalog.
+
+The products endpoint contains the subscription settings associated to a catalog product.
 
 ## Subscriptions and products
 
-In the ReCharge Merchant Portal you can create rulesets that contain the subscription settings for products. Although you can create products by passing the `collection_id`, it is not recommended. Set the following fields when creating products via API, as rulesets will one day be deprecated. The following fields are required: `charge_interval_frequency`, `order_interval_frequency_options`, `order_interval_unit` and `storefront_purchase_options`.
+In the ReCharge Merchant Portal you can create products with subscription rules. Although you can create products by passing the `collection_id`, it is not recommended. Set the following fields when creating products via API, as rulesets will one day be deprecated. The following fields are required: `charge_interval_frequency`, `order_interval_frequency_options`, `order_interval_unit` and `storefront_purchase_options`.
 
 |Property|Required|Value|Note|
 |-|-|-|-|
@@ -32,7 +37,7 @@ In the ReCharge Merchant Portal you can create rulesets that contain the subscri
 type: tab
 title: Updating a Product
 -->
-`PUT` to ``
+`PUT` to `products:id`
 
 ```json
 '{
