@@ -1,6 +1,7 @@
 # Customer Portal
 
 This article will provide a high-level overview for recreating the Customer Portal experience using our API integration. The ReCharge customer portal is where customers can manage aspects of their subscription, cancel their subscription or update their information.
+
 ![customer portal](assets/images/customer-portal.png)
 
 There are two approaches to providing a Customer Portal with the API integration:
