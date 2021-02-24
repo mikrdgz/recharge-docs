@@ -124,13 +124,6 @@
                         }
                     ]
                 },
-                {
-                    "type": "group",
-                    "title": "BigCommerce Integration",
-                    "items": [
-
-                    ]
-                },
         {
             "type": "divider",
             "title": "API Reference"
