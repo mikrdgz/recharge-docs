@@ -1,6 +1,6 @@
 # Storefront
 
-ReCharge provides the capabilities to present your customers with subscription options on your website via our JavaScript SDK.  The SDK gives you full access to all your product’s subscription options via a CDN script embedded in your webpage. You can then create elements on store pages such as a subscription widget on the product page, logic to determine if subscriptions are in the customer’s cart and more. This is the storefront component. This article will cover high-level considerations for integrating ReCharge subscriptions with your own custom frontend. 
+ReCharge provides the capabilities to present your customers with subscription options on your website via our JavaScript SDK.  The SDK gives you full access to all your product’s subscription options via a CDN script embedded in your webpage. You can then create elements on store pages such as a subscription widget on the product page, logic to determine if subscriptions are in the customer’s cart and more. 
 
 ## CDN
 
@@ -21,7 +21,7 @@ Once you've made the CDN URL available on desired pages, you will have access to
 - `RCA_STORE_DATA`
 - `RCA_PRODUCT_DATA`
 
-The `RCA_FILE_DATA` and `RCA_STORE_DATA` objects contain meta information about the script itself and your store. You'll mainly target the `RCA_PRODUCT_DATA` array which contains information about products in the store. You can surface this information on the storefront in ways you see fit. See [Frontend functionality](fe-functionality.md) for guidance on styling ReCharge CSS elements.
+The `RCA_FILE_DATA` and `RCA_STORE_DATA` objects contain meta information about the script itself and your store. You'll mainly target the `RCA_PRODUCT_DATA` array which contains information about products in the store. You can surface this information on the storefront in ways you see fit. 
 
 ### Example `RCA_DATA` object
 

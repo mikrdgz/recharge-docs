@@ -72,7 +72,7 @@ Using the data from the `GET` to `shipping_rates`, populate the options onto you
 ## 5. Process Checkout
 
 At this point, you should present the customer with form fields to input their payment information. **You're responsible for securely passing this information to a payment processor while adhering to [PCI compliance](https://www.pcisecuritystandards.org/) guidelines.**
-a
+
 You should receive a customer/payment token in the response from the payment processor.
 
 The final step is sending a `POST` to the ReCharge Checkouts API `charge` endpoint with this payment token to finalize processing checkout.  It is best practice to present the customer with a page that allows them to review their final order before placing it. Once you've processed the checkout, redirect the customer to an order confirmation page.

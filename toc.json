@@ -95,9 +95,25 @@
                             "title": "Portals",
                             "items": [
                                 {
-                                    "type": "item",
+                                    "type": "group",
                                     "title": "Customer Portal",
-                                    "uri": "docs/customer-portal.md"
+                                    "items": [
+                                        {
+                                            "type": "item",
+                                            "title": "Overview",
+                                            "uri": "docs/customer-portal-overview.md"
+                                        },
+                                        {
+                                            "type": "item",
+                                            "title": "ReCharge-Hosted Customer Portal",
+                                            "uri": "docs/merchant-portal.md"
+                                        },
+                                        {
+                                            "type": "item",
+                                            "title": "Third Party Customer Portal",
+                                            "uri": "docs/third-party-customer-portal.md"
+                                        }
+                                    ]
                                 },
                                 {
                                     "type": "item",
