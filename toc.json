@@ -1,28 +1,6 @@
 {
     "items": [
-        {
-            "type": "divider",
-            "title": "API Quick Start"
-        },
-        {
-            "type": "item",
-            "title": "Introduction",
-            "uri": "docs/intro.md"
-        },
-        {
-            "type": "item",
-            "title": "Authentication",
-            "uri": "docs/authentication.md"
-        },
-        {
-            "type": "divider",
-            "title": "Integrations"
-        },
             
-                {
-                    "type": "group",
-                    "title": "API Integration",
-                    "items": [
                         {
                             "type": "item",
                             "title": "Overview",
@@ -121,9 +99,7 @@
                                     "uri": "docs/merchant-portal.md"
                                 }
                             ]
-                        }
-                    ]
-                },
+                        },
         {
             "type": "divider",
             "title": "API Reference"
