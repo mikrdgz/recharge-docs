@@ -181,7 +181,7 @@
         {
             "type": "item",
             "title": "Webhooks Overview",
-            "uri": "docs/webhooks-overview.md"
+            "uri": "https://recharge.stoplight.io/docs/post-checkout-guide/"
         }
     ]
 }
