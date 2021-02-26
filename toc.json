@@ -6,7 +6,7 @@
             "uri": "docs/headless-overview.md"
         },
         {
-            "group": "item",
+            "type": "group",
             "title": "Managing Products",
             "items": [
                 {
