@@ -1,68 +1,11 @@
 # Managing Products
 
 ## Overview
-Products are the core of ReCharge subscriptions. Our product catalog is where we store information about a product's price, weight, variant, SKU etc. The product[Products Resource endpoint](https://developer.rechargepayments.com/#products) is where we you will find information about subscriptions offered for an item including its price, variants and images. ReCharge automatically syncs and maintains product catalog data between Shopify and BigCommerce via our direct integrations. This article provides guidance on maintaining product data between your own catalog and the ReCharge product catalog using your own API integration.
-
-## Uses
-
-The product catalog is used throughout the ReCharge application to provide product data for the following areas:
-
-- Product widget
-- Checkout
-- Merchant Portal
-- Customer Portal
-
-## The "Product catalog" versus "Products endpoint"
-
-The ReCharge [product catalog](https://docs.google.com/document/d/1m2EV6Cq6ivEwr47NVGvxU4eVQWykqioJJlKKZ1WWOGo/edit) is where data about each item in your external catalog is stored within our system. With our direct integrations, ReCharge automatically pulls information such as price, variant, SKU etc. into our product catalog at the time a user creates a Product in the Merchant Portal.
-
-## Creating a Product
-
-You can take the following steps to create products in ReCharge.
-
-### Creating products manually
-You can create products manually via the [Merchant Portal](https://support.rechargepayments.com/hc/en-us/articles/360008830873-Creating-subscription-rulesets), if preferred. Doing so will reduce the steps your app will need to take to begin offering ReCharge subscriptions via API.
-
-### Creating products via API
-
-1. Create the product in the ReCharge product catalog using the `/catalog/` endpoint.
-2. Then create the product using our Products API, at which point defining subcription rules for that item.
-
-### Creating a product in the product catalog example
-
-`POST` to `https://api.rechargeapps.com/catalog/products`
-
-```json
-{
-    "id":999999, //The ID of the product in your system
-    "title":"My Cool Product", //The title for display of the product
-    "handle":"cool-product", //A shortened URL safe slug for the product
-    "image":{
-       "src":"https://url.for/image.png"
-    },
-    "images":[{
-       "src":"https://url.for/image.png"
-    }],
-    "options": [],
-    "variants":[{
-        "id":999999, //The ID of the product in your system
-        "price":11.99, //The list price of the product (before subscription discount)
-        "product_id":999999, //The ID of the product in your system
-        "sku":"testsku", //The SKU of the product in your system
-        "taxable":true, //N/A if not using taxes
-        "requires_shipping":true, //N/A if not using shipping
-        "title":""
-    }],
-    "vendor":"Test",
-    "published_at":"2020-01-01T00:00:00" // Required - anytime in the past is fine
-}
-```
-> ### Note about /catalog/ endpoint
-> The `/catalog/` endpoint is currently in beta. If you encounter an issue while using this resource, please contact ReCharge.
+Products are the core of ReCharge subscriptions. Our product catalog is where we store information about a product's price, weight, variant, SKU etc. The product[Products Resource endpoint](https://developer.rechargepayments.com/#products) is where you will find information about the subscription rules for an item. ReCharge automatically syncs and maintains product data between Shopify and BigCommerce via our direct integrations. This section provides guidance on directly maintaining product data between your own external catalog and the ReCharge product catalog and Products resource.
 
 ## Maintaining products in ReCharge using middleware
 
-ReCharge stores all important information about a product's subscription options on the product resource. If you want to offer a subcription for a product, **you must create that product in ReCharge's catalog**. 
+ReCharge stores all important information about a product's subscription options on the product resource. If you want to offer a subcription for a product, **you must create that product in ReCharge's catalog before creating an entry for it in the Products resource**. 
 
 In a headless environment, you are responsible for syncing your external product catalog data into ReCharge. The best way to do this is by taking advantage of webhooks available on your existing platform and building a middlware controller that can receive webhooks payloads and then make appropriate changes to your catalog in ReCharge.
 

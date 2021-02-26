@@ -7,9 +7,31 @@
                             "uri": "docs/headless-overview.md"
                         },
                         {
-                            "type": "item",
+                            "group": "item",
                             "title": "Managing Products",
-                            "uri": "docs/handling-products.md"
+                            "items":[
+                                {
+                                "type":"item",
+                                "title":"Overview",
+                                "uri":"docs/handling-products.md"
+                            },
+
+                            {
+                                "type":"item",
+                                "title":"Product Catalog",
+                                "uri":"docs/product-catalog.md"
+                            },
+                            {
+                                "type":"item",
+                                "title":"Products Resource",
+                                "uri":"docs/product-resource.md"
+                            },
+                            {
+                                "type":"item",
+                                "title":"Creating a Product",
+                                "uri":"docs/creating-products.md"
+                            }
+                            ]
                         },
                         {
                             "type": "item",
