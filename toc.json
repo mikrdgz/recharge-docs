@@ -3,7 +3,7 @@
         {
             "type": "item",
             "title": "Overview",
-            "uri": "docs/headless-overview.md"
+            "uri": "docs/api-overview.md"
         },
         {
             "type": "group",
@@ -34,7 +34,7 @@
         {
             "type": "item",
             "title": "Storefront",
-            "uri": "docs/headless-storefront.md"
+            "uri": "docs/api-storefront.md"
         },
         {
             "type": "group",
