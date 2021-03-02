@@ -1,14 +1,10 @@
 # Creating a Product
 
-You can take the following steps to create products in ReCharge.
+To sell products using ReCharge you must first create these items in our system. This guide outlines how to create products via API Integration. 
 
-### Creating products manually
-You can create products manually via the [Merchant Portal](https://support.rechargepayments.com/hc/en-us/articles/360008830873-Creating-subscription-rulesets), if preferred. Doing so will reduce the steps your app will need to take to begin offering ReCharge subscriptions via API.
+## Creating the Product Catalog entry
 
-### Creating products via API
-
-1. Create the product in the ReCharge product catalog using the `/catalog/` endpoint.
-2. Next, create subscription rules for the item using our Products API.
+First, create an entry for the item in the Product Catalog. The product catalog is where information about the product, such as price, weight and SKU, is stored in ReCharge.
 
 ### Creating a product in the product catalog example
 
@@ -18,7 +14,7 @@ You can create products manually via the [Merchant Portal](https://support.recha
 {
     "id":999999, //The ID of the product in your system
     "title":"My Cool Product", //The title for display of the product
-    "handle":"cool-product", //A shortened URL safe slug for the product
+    "handle":"cool-product", //A shortened URL-safe slug for the product
     "image":{
        "src":"https://url.for/image.png"
     },
@@ -39,7 +35,16 @@ You can create products manually via the [Merchant Portal](https://support.recha
     "published_at":"2020-01-01T00:00:00" // Required - anytime in the past is fine
 }
 ```
-### Creating a Products resource entry
+
+## Creating Products via Merchant Portal
+Once you've created the item in the Product Catalog, you can tie ReCharge subscription rules to the items. Do this by creating entries on the Products Resource.
+
+You can create entries on the Products Resource manually via the [Merchant Portal](https://support.rechargepayments.com/hc/en-us/articles/360008830873-Creating-subscription-rulesets), if desired. This method reduces the steps your app will need to take to begin offering subscriptions.
+
+## Creating Products via API
+You can create a Product Resource entry programmatically if this method fits with your workflow. Use our Products API to accomplish this. See the example below for details.
+
+### Creating a Products Resource entry
 
 `POST` to `/products`
 

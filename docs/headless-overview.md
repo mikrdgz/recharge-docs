@@ -2,9 +2,6 @@
 
 ReCharge offers APIs that let you use subscription functionality with your existing ecommerce tech stack, or platform of your choice. Using our robust APIs you can seamlessly display ReCharge subscription options on any frontend. 
 
-> ### Note
-> Significant custom development is required to integrate ReCharge using an API-first approach.
-
 ## Products
 ReCharge has its own catalog of products. You will need to create products in ReCharge via your application and sync their data asynchronously with that of your own product catalog in order to process subscription orders. ReCharge stores information about the type of subscriptions you offer on the products resource. If you want to offer subscriptions for a product, you must create that product in the ReCharge product catalog.
 

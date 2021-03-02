@@ -1,7 +1,7 @@
 # Managing Products
 
 ## Overview
-Products are the core of ReCharge subscriptions. Our product catalog is where we store information about a product's price, weight, variant, SKU etc. The product[Products Resource endpoint](https://developer.rechargepayments.com/#products) is where you will find information about the subscription rules for an item. ReCharge automatically syncs and maintains product data between Shopify and BigCommerce via our direct integrations. This section provides guidance on directly maintaining product data between your own external catalog and the ReCharge product catalog and Products resource.
+Products are the core of ReCharge subscriptions. Our product catalog is where we store information about a product's price, weight, variant, SKU etc. The [Products Resource endpoint](https://developer.rechargepayments.com/#products) is where you will find information about the subscription rules for an item. ReCharge automatically syncs and maintains product data between Shopify and BigCommerce via our direct integrations. This section provides guidance on directly maintaining product data between your own external catalog and the ReCharge product catalog and Products resource.
 
 ## Maintaining products in ReCharge using middleware
 

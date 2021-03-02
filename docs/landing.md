@@ -7,7 +7,7 @@ ReCharge empowers ecommerce developers to unlock subscriptions and recurring bil
 
 ## API reference
 
-This site expands upon our existing API documentation by providing guides, references and tutorials meant to compliment our API reference. Visit ReCharge's [developer documentation site](https://developer.rechargepayments.com/) to see all available API endpoints and schema.
+This site expands upon our existing API documentation by providing guides, references and tutorials meant to compliment our API reference. Visit ReCharge's [developer documentation site](https://developer.rechargepayments.com/?login_key=m6dlxf32h6) to see all available API endpoints and schema.
 
 ## Support documentation
 

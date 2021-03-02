@@ -1,7 +1,7 @@
 # Introduction
 You will find reference information, customization guides and use-case examples for ReCharge's API in this space.
 
-To see the full API schema for each endpoint, visit the [API Reference](https://developer.rechargepayments.com/).
+To see the full API schema for each endpoint, visit the [API Reference](https://developer.rechargepayments.com/?login_key=m6dlxf32h6).
 
 ## The ReCharge API
 The Recharge API is organized around REST. Our API has predictable resource-oriented URLs, accepts JSON-encoded request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs.
