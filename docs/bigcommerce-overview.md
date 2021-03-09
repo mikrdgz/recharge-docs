@@ -1,17 +1,6 @@
 # Overview
 
-The Recharge integration with BigCommerce works out-of-the-box and only requires you to configure general store settings. However, you have the option to to customize the Storefront, Checkout and Customer Portal if desired. With Recharge's architecture you can start with an out-of-the-box solution (most start here), move to a highly flexible hybrid solution (many move here), and if desired build a custom solution (some merchants require this).
-
-## How to Build
-For BigCommerce implementations we recommend using the out-of-the-box solution to get started. If you have an unsupported storefront theme you'll need to customize the integration. 
-
-## Use Cases
-
-There are several key reasons to customize a ReCharge/BigCommerce implementation:
-
-* You're using a theme ReCharge currently does not support.
-* You want a custom user interface for ReCharge functionality on your product page.
-* Matching the look and feel of an existing branded user experience.
+The Recharge integration with BigCommerce works out-of-the-box and only requires you to configure general store settings. However, you have the option to to customize the Storefront, Checkout and Customer Portal if desired. 
 
 ## Prerequisites
 You should configure your ReCharge store settings before using the BigCommerce integration. See [Other Settings](https://support.rechargepayments.com/hc/en-us/categories/360000578494-Other-Settings) in the Help Center for details.
@@ -69,7 +58,7 @@ The following features are either unsupported or have limited functionality:
 * Displaying prices inclusive/exclusive of tax differently on product and cart pages
 * Synchronized cancellations and order statuses across Recharge to BigCommerce
 * Custom required order fields on [Customer address record](https://support.bigcommerce.com/s/article/Editing-Form-Fields#address-fields)
-* Refund synchronization from Recharge to BigCommerce
+* Refund synchronization from ReCharge to BigCommerce
 * Refund synchronization from BigCommerce to Recharge
 
 ## Resources
