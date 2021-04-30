@@ -1,5 +1,7 @@
 # API Integration Overview
 
+**This document has moved, find it [here](https://docs.rechargepayments.com/docs/api-getting-started)**
+
 ReCharge offers APIs that let you use subscription functionality with your existing ecommerce tech stack, or platform of your choice. Using our robust APIs you can seamlessly display ReCharge subscription options on any frontend. 
 
 ## Products
